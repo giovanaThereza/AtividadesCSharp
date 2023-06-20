@@ -1,0 +1,8 @@
+C:\Users\giovana.tgmsilva\source\repos\AulaAlgoritimoCsharp\AulaAlgoritimoCsharp\bin\Debug\AulaAlgoritimoCsharp.exe.config
+C:\Users\giovana.tgmsilva\source\repos\AulaAlgoritimoCsharp\AulaAlgoritimoCsharp\bin\Debug\AulaAlgoritimoCsharp.exe
+C:\Users\giovana.tgmsilva\source\repos\AulaAlgoritimoCsharp\AulaAlgoritimoCsharp\bin\Debug\AulaAlgoritimoCsharp.pdb
+C:\Users\giovana.tgmsilva\source\repos\AulaAlgoritimoCsharp\AulaAlgoritimoCsharp\obj\Debug\AulaAlgoritimoCsharp.csproj.AssemblyReference.cache
+C:\Users\giovana.tgmsilva\source\repos\AulaAlgoritimoCsharp\AulaAlgoritimoCsharp\obj\Debug\AulaAlgoritimoCsharp.csproj.SuggestedBindingRedirects.cache
+C:\Users\giovana.tgmsilva\source\repos\AulaAlgoritimoCsharp\AulaAlgoritimoCsharp\obj\Debug\AulaAlgoritimoCsharp.csproj.CoreCompileInputs.cache
+C:\Users\giovana.tgmsilva\source\repos\AulaAlgoritimoCsharp\AulaAlgoritimoCsharp\obj\Debug\AulaAlgoritimoCsharp.exe
+C:\Users\giovana.tgmsilva\source\repos\AulaAlgoritimoCsharp\AulaAlgoritimoCsharp\obj\Debug\AulaAlgoritimoCsharp.pdb
