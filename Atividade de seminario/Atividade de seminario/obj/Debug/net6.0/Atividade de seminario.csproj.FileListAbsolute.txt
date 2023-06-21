@@ -1,0 +1,15 @@
+C:\Users\giovana.tgmsilva\source\repos\Atividade de seminario\Atividade de seminario\obj\Debug\net6.0\Atividade de seminario.csproj.AssemblyReference.cache
+C:\Users\giovana.tgmsilva\source\repos\Atividade de seminario\Atividade de seminario\obj\Debug\net6.0\Atividade de seminario.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\giovana.tgmsilva\source\repos\Atividade de seminario\Atividade de seminario\obj\Debug\net6.0\Atividade de seminario.AssemblyInfoInputs.cache
+C:\Users\giovana.tgmsilva\source\repos\Atividade de seminario\Atividade de seminario\obj\Debug\net6.0\Atividade de seminario.AssemblyInfo.cs
+C:\Users\giovana.tgmsilva\source\repos\Atividade de seminario\Atividade de seminario\obj\Debug\net6.0\Atividade de seminario.csproj.CoreCompileInputs.cache
+C:\Users\giovana.tgmsilva\source\repos\Atividade de seminario\Atividade de seminario\bin\Debug\net6.0\Atividade de seminario.exe
+C:\Users\giovana.tgmsilva\source\repos\Atividade de seminario\Atividade de seminario\bin\Debug\net6.0\Atividade de seminario.deps.json
+C:\Users\giovana.tgmsilva\source\repos\Atividade de seminario\Atividade de seminario\bin\Debug\net6.0\Atividade de seminario.runtimeconfig.json
+C:\Users\giovana.tgmsilva\source\repos\Atividade de seminario\Atividade de seminario\bin\Debug\net6.0\Atividade de seminario.dll
+C:\Users\giovana.tgmsilva\source\repos\Atividade de seminario\Atividade de seminario\bin\Debug\net6.0\Atividade de seminario.pdb
+C:\Users\giovana.tgmsilva\source\repos\Atividade de seminario\Atividade de seminario\obj\Debug\net6.0\Atividade de seminario.dll
+C:\Users\giovana.tgmsilva\source\repos\Atividade de seminario\Atividade de seminario\obj\Debug\net6.0\refint\Atividade de seminario.dll
+C:\Users\giovana.tgmsilva\source\repos\Atividade de seminario\Atividade de seminario\obj\Debug\net6.0\Atividade de seminario.pdb
+C:\Users\giovana.tgmsilva\source\repos\Atividade de seminario\Atividade de seminario\obj\Debug\net6.0\Atividade de seminario.genruntimeconfig.cache
+C:\Users\giovana.tgmsilva\source\repos\Atividade de seminario\Atividade de seminario\obj\Debug\net6.0\ref\Atividade de seminario.dll
