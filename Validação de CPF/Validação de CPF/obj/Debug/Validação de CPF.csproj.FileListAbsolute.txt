@@ -1,0 +1,8 @@
+C:\Users\giovana.tgmsilva\source\repos\Validação de CPF\Validação de CPF\bin\Debug\Validação de CPF.exe.config
+C:\Users\giovana.tgmsilva\source\repos\Validação de CPF\Validação de CPF\bin\Debug\Validação de CPF.exe
+C:\Users\giovana.tgmsilva\source\repos\Validação de CPF\Validação de CPF\bin\Debug\Validação de CPF.pdb
+C:\Users\giovana.tgmsilva\source\repos\Validação de CPF\Validação de CPF\obj\Debug\Validação de CPF.csproj.AssemblyReference.cache
+C:\Users\giovana.tgmsilva\source\repos\Validação de CPF\Validação de CPF\obj\Debug\Validação de CPF.csproj.SuggestedBindingRedirects.cache
+C:\Users\giovana.tgmsilva\source\repos\Validação de CPF\Validação de CPF\obj\Debug\Validação de CPF.csproj.CoreCompileInputs.cache
+C:\Users\giovana.tgmsilva\source\repos\Validação de CPF\Validação de CPF\obj\Debug\Validação de CPF.exe
+C:\Users\giovana.tgmsilva\source\repos\Validação de CPF\Validação de CPF\obj\Debug\Validação de CPF.pdb
