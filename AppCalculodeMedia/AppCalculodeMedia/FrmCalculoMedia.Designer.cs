@@ -127,13 +127,13 @@
             // 
             // LblResultadoMedia
             // 
-            this.LblResultadoMedia.AutoSize = true;
             this.LblResultadoMedia.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.LblResultadoMedia.Location = new System.Drawing.Point(378, 115);
+            this.LblResultadoMedia.Location = new System.Drawing.Point(324, 98);
             this.LblResultadoMedia.Name = "LblResultadoMedia";
-            this.LblResultadoMedia.Size = new System.Drawing.Size(23, 31);
+            this.LblResultadoMedia.Size = new System.Drawing.Size(133, 62);
             this.LblResultadoMedia.TabIndex = 9;
             this.LblResultadoMedia.Text = "-";
+            this.LblResultadoMedia.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.LblResultadoMedia.Click += new System.EventHandler(this.LblResultadoMedia_Click);
             // 
             // LblForma
