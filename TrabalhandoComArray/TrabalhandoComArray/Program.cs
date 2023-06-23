@@ -10,7 +10,7 @@ namespace TrabalhandoComArray
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Digite o seu CPF (Apenas Números) : ");
+            Console.Write("Digite o seu CPF (Apenas Números): ");
             string cpf = Console.ReadLine();
 
             char[] numerosCPF = cpf.ToCharArray();
@@ -28,6 +28,8 @@ namespace TrabalhandoComArray
             }
 
             int[] numeroInteiro = numerosCPF.Select(numero => Convert.ToInt32(numero.ToString())).ToArray();
+
+            Console.WriteLine(string.Join("-", numeroInteiro));
         }
     }
 }
