@@ -35,6 +35,7 @@ namespace Validação_de_CPF
                 else if (numero.Length != 11)
                 {
                     Console.WriteLine("Inválido");
+                    Console.WriteLine("\n======================\n");
                     continue;
                 }
                 else
