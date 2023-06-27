@@ -10,8 +10,13 @@ namespace AlgoritmosDiversosCsharp
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Escreva o texto com quebra de linha; ");
+            Console.WriteLine("Escreva o texto com quebra de linha: ");
             Console.Write("Sem quebra de linha");
+
+            // Comentario de linha 
+            /*
+             * Comentário de bloco 
+             */
         }
     }
 }
