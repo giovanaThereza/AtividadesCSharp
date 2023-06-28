@@ -1,0 +1,11 @@
+C:\Users\giovana.tgmsilva\source\repos\AppCnpjCpf\AppCnpjCpf\bin\Debug\AppCnpjCpf.exe.config
+C:\Users\giovana.tgmsilva\source\repos\AppCnpjCpf\AppCnpjCpf\bin\Debug\AppCnpjCpf.exe
+C:\Users\giovana.tgmsilva\source\repos\AppCnpjCpf\AppCnpjCpf\bin\Debug\AppCnpjCpf.pdb
+C:\Users\giovana.tgmsilva\source\repos\AppCnpjCpf\AppCnpjCpf\obj\Debug\AppCnpjCpf.csproj.AssemblyReference.cache
+C:\Users\giovana.tgmsilva\source\repos\AppCnpjCpf\AppCnpjCpf\obj\Debug\AppCnpjCpf.csproj.SuggestedBindingRedirects.cache
+C:\Users\giovana.tgmsilva\source\repos\AppCnpjCpf\AppCnpjCpf\obj\Debug\AppCnpjCpf.Properties.Resources.resources
+C:\Users\giovana.tgmsilva\source\repos\AppCnpjCpf\AppCnpjCpf\obj\Debug\AppCnpjCpf.csproj.GenerateResource.cache
+C:\Users\giovana.tgmsilva\source\repos\AppCnpjCpf\AppCnpjCpf\obj\Debug\AppCnpjCpf.csproj.CoreCompileInputs.cache
+C:\Users\giovana.tgmsilva\source\repos\AppCnpjCpf\AppCnpjCpf\obj\Debug\AppCnpjCpf.exe
+C:\Users\giovana.tgmsilva\source\repos\AppCnpjCpf\AppCnpjCpf\obj\Debug\AppCnpjCpf.pdb
+C:\Users\giovana.tgmsilva\source\repos\AppCnpjCpf\AppCnpjCpf\obj\Debug\AppCnpjCpf.TxtAppSelecionar.resources

@@ -1,0 +1,11 @@
+C:\Users\giovana.tgmsilva\source\repos\GeradorValidadorCPF\GeradorValidadorCPF\bin\Debug\GeradorValidadorCPF.exe.config
+C:\Users\giovana.tgmsilva\source\repos\GeradorValidadorCPF\GeradorValidadorCPF\bin\Debug\GeradorValidadorCPF.exe
+C:\Users\giovana.tgmsilva\source\repos\GeradorValidadorCPF\GeradorValidadorCPF\bin\Debug\GeradorValidadorCPF.pdb
+C:\Users\giovana.tgmsilva\source\repos\GeradorValidadorCPF\GeradorValidadorCPF\obj\Debug\GeradorValidadorCPF.csproj.AssemblyReference.cache
+C:\Users\giovana.tgmsilva\source\repos\GeradorValidadorCPF\GeradorValidadorCPF\obj\Debug\GeradorValidadorCPF.csproj.SuggestedBindingRedirects.cache
+C:\Users\giovana.tgmsilva\source\repos\GeradorValidadorCPF\GeradorValidadorCPF\obj\Debug\GeradorValidadorCPF.Form1.resources
+C:\Users\giovana.tgmsilva\source\repos\GeradorValidadorCPF\GeradorValidadorCPF\obj\Debug\GeradorValidadorCPF.Properties.Resources.resources
+C:\Users\giovana.tgmsilva\source\repos\GeradorValidadorCPF\GeradorValidadorCPF\obj\Debug\GeradorValidadorCPF.csproj.GenerateResource.cache
+C:\Users\giovana.tgmsilva\source\repos\GeradorValidadorCPF\GeradorValidadorCPF\obj\Debug\GeradorValidadorCPF.csproj.CoreCompileInputs.cache
+C:\Users\giovana.tgmsilva\source\repos\GeradorValidadorCPF\GeradorValidadorCPF\obj\Debug\GeradorValidadorCPF.exe
+C:\Users\giovana.tgmsilva\source\repos\GeradorValidadorCPF\GeradorValidadorCPF\obj\Debug\GeradorValidadorCPF.pdb
