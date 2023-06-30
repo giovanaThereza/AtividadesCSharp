@@ -34,6 +34,7 @@
             this.label1 = new System.Windows.Forms.Label();
             this.RDBntCPF = new System.Windows.Forms.RadioButton();
             this.RDBntCNPJ = new System.Windows.Forms.RadioButton();
+            this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.SuspendLayout();
             // 
             // BntValidar
@@ -56,6 +57,7 @@
             this.BntCancel.TabIndex = 1;
             this.BntCancel.Text = "Cancel";
             this.BntCancel.UseVisualStyleBackColor = true;
+            this.BntCancel.Click += new System.EventHandler(this.BntCancel_Click);
             // 
             // TxtDigiteOpcao
             // 
@@ -99,10 +101,19 @@
             this.RDBntCNPJ.Text = "CNPJ";
             this.RDBntCNPJ.UseVisualStyleBackColor = true;
             // 
+            // menuStrip1
+            // 
+            this.menuStrip1.Location = new System.Drawing.Point(0, 0);
+            this.menuStrip1.Name = "menuStrip1";
+            this.menuStrip1.Size = new System.Drawing.Size(598, 24);
+            this.menuStrip1.TabIndex = 8;
+            this.menuStrip1.Text = "menuStrip1";
+            // 
             // TxtAppSelecionar
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.PowderBlue;
             this.ClientSize = new System.Drawing.Size(598, 310);
             this.Controls.Add(this.RDBntCNPJ);
             this.Controls.Add(this.RDBntCPF);
@@ -110,7 +121,10 @@
             this.Controls.Add(this.TxtDigiteOpcao);
             this.Controls.Add(this.BntCancel);
             this.Controls.Add(this.BntValidar);
+            this.Controls.Add(this.menuStrip1);
+            this.ForeColor = System.Drawing.SystemColors.ControlText;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
+            this.MainMenuStrip = this.menuStrip1;
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "TxtAppSelecionar";
@@ -128,6 +142,7 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.RadioButton RDBntCPF;
         private System.Windows.Forms.RadioButton RDBntCNPJ;
+        private System.Windows.Forms.MenuStrip menuStrip1;
     }
 }
 

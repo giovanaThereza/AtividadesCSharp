@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>AlgoritmosDiversos.LacodeRepeticao</StartupObject>
+    <StartupObject>AlgoritmosDiversos.ListaDeCompras</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -48,8 +48,11 @@
   <ItemGroup>
     <Compile Include="EstruturaCondicional.cs" />
     <Compile Include="LacodeRepeticao.cs" />
+    <Compile Include="LIstaDeCompras.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="TrabalahndoArray.Cs" />
+    <Compile Include="TrabalhandoLista.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

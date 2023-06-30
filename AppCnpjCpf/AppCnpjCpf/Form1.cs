@@ -21,15 +21,23 @@ namespace AppCnpjCpf
         {
             if (RDBntCPF.Checked)
             {
-
+                //Parte do CPF
                 string numero = TxtDigiteOpcao.Text.Trim();
                 int i;
                 int soma = 0, soma2 = 0, resto1 = 0, resto2 = 0;
                 int[] vt = new int[11];
                 int[] peso1 = { 10, 9, 8, 7, 6, 5, 4, 3, 2 };
                 int[] peso2 = { 11, 10, 9, 8, 7, 6, 5, 4, 3, 2 };
-              
+
+                if (numero.Length != 14)
+                {
+                    MessageBox.Show("CPF Inválido", "Erro", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    return;
+                }
+
+                numero = numero.Replace(".", "").Replace("-", "").Replace("/", "");
                 vt = numero.Select(d => Convert.ToInt32(d.ToString())).ToArray();
+                
                 for (i = 0; i < 9; i++)
                 {
                     soma += vt[i] * peso1[i];
@@ -55,25 +63,111 @@ namespace AppCnpjCpf
                 string CPFcru = string.Join("", vt);
                 string CPFrenovado = $"{CPFcru.Substring(0, 3)}.{CPFcru.Substring(3, 3)}.{CPFcru.Substring(6, 3)}-{CPFcru.Substring(9, 2)}";
 
+                char digito1 = numero[9];
+                char digito2 = numero[10];
+                char dig1 = Convert.ToChar(vt[9].ToString());
+                char dig2 = Convert.ToChar(vt[10].ToString());
 
-                if (resto1 == vt[9] || resto2 == vt[10]) // Validação
+                if (dig1 == digito1 && dig2 == digito2) // Validação
                 {
-                    MessageBox.Show($"Seu CPF está aprovado: {CPFrenovado}", "Aviso", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
-
+                    MessageBox.Show($"Seu CPF está aprovado: {CPFrenovado}", "Aviso", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 }
-                else
+                
+            }
+
+                // Parte do CNPJ 
+                if (RDBntCNPJ.Checked)
                 {
-                    MessageBox.Show($"Seu CPF está inválido: {CPFrenovado}", "Erro", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
-                }              
-            }   
+                    string CNPJ = TxtDigiteOpcao.Text;
+                    int ii;
+                    int somas = 0, somas2 = 0;
+                    int[] vtr = new int[14];
+                    int[] multipd = { 5, 4, 3, 2, 9, 8, 7, 6, 5, 4, 3, 2 };
+                    int[] multisd = { 6, 5, 4, 3, 2, 9, 8, 7, 6, 5, 4, 3, 2 };
+
+               
+                    CNPJ = CNPJ.Replace(".", "").Replace("-", "").Replace("/", "");   
+                     
+                    // Remover caracteres especiais
+
+                    if (CNPJ.Length != 14)
+                    {
+                       MessageBox.Show("CNPJ Inválido", "Erro", MessageBoxButtons.OK, MessageBoxIcon.Error);   
+                       return;
+                    }
+                       
+                    
+
+                    for(ii = 0 ; ii < 14; ii++){
+
+                        vtr[ii] = int.Parse(CNPJ[ii].ToString());
+                    }
+
+                    for (ii = 0; ii < 12; ii++) //Primeiro Dígito
+                    {
+                        somas += vtr[ii] * multipd[ii];
+                    }
+
+                    int div = somas % 11;
+
+                    if(div < 2)
+                    {
+                        vtr[12] = 0;
+                    }
+                    else
+                    {
+                        vtr[12] = 11 - div;
+                    }
+                    
+
+
+                    for (ii = 0; ii < 13; ii++) //Segundo Dígito
+                    {
+                        somas2 += vtr[ii] * multisd[ii];
+
+                    }
+
+                    int div2 = somas2 % 11;
+                    
+                    if(div2 < 2)
+                    {
+                        vtr[13] = 0;
+                    }
+                    else
+                    {
+                        vtr[13] = 11 - div2;
+                    }
+
+
+                    char digito1 = CNPJ[12];
+                    char digito2 = CNPJ[13];
+                    char dig1 = Convert.ToChar(vtr[12].ToString());
+                    char dig2 = Convert.ToChar(vtr[13].ToString());
+
+                    string CNPJAntigo = string.Join("", vtr);
+                    string CNPJRenovado = $"{CNPJAntigo.Substring(0, 2)}.{CNPJAntigo.Substring(2, 3)}.{CNPJAntigo.Substring(5, 3)}/{CNPJAntigo.Substring(8, 4)}-{CNPJAntigo.Substring(12, 2)}";
+
+                    if (dig1 == digito1 && dig2 == digito2) //Validação
+                    {
+                        MessageBox.Show("Seu CNPJ está aprovado", "Aceito", MessageBoxButtons.OK, MessageBoxIcon.Information);                     
+                    }               
+                }
+               
+
         }
 
-        private void TxtDigiteOpcao_KeyPress(object sender, KeyPressEventArgs e)
+       private void TxtDigiteOpcao_KeyPress(object sender, KeyPressEventArgs e)
         {
-            if (!char.IsControl(e.KeyChar) && !char.IsDigit(e.KeyChar))
+            if (!char.IsControl(e.KeyChar) && !char.IsDigit(e.KeyChar) && e.KeyChar != '.' && e.KeyChar != '/' && e.KeyChar != '-')
             {
+                
                 e.Handled = true; // Impede a digitação de caracteres não numéricos
             }
+        }
+
+        private void BntCancel_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
     }
 }
