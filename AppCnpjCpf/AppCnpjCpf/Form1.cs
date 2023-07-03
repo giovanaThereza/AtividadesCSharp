@@ -37,7 +37,7 @@ namespace AppCnpjCpf
 
                 numero = numero.Replace(".", "").Replace("-", "").Replace("/", "");
                 vt = numero.Select(d => Convert.ToInt32(d.ToString())).ToArray();
-                
+
                 for (i = 0; i < 9; i++)
                 {
                     soma += vt[i] * peso1[i];
@@ -86,7 +86,7 @@ namespace AppCnpjCpf
                     int[] multisd = { 6, 5, 4, 3, 2, 9, 8, 7, 6, 5, 4, 3, 2 };
 
                
-                    CNPJ = CNPJ.Replace(".", "").Replace("-", "").Replace("/", "");   
+                   CNPJ = CNPJ.Replace(".", "").Replace("-", "").Replace("/", "");   
                      
                     // Remover caracteres especiais
 
@@ -97,7 +97,6 @@ namespace AppCnpjCpf
                     }
                        
                     
-
                     for(ii = 0 ; ii < 14; ii++){
 
                         vtr[ii] = int.Parse(CNPJ[ii].ToString());
@@ -149,7 +148,7 @@ namespace AppCnpjCpf
 
                     if (dig1 == digito1 && dig2 == digito2) //Validação
                     {
-                        MessageBox.Show("Seu CNPJ está aprovado", "Aceito", MessageBoxButtons.OK, MessageBoxIcon.Information);                     
+                        MessageBox.Show("Seu CNPJ está aprovado", "Aprovado", MessageBoxButtons.OK, MessageBoxIcon.Information);                     
                     }               
                 }
                
@@ -168,6 +167,57 @@ namespace AppCnpjCpf
         private void BntCancel_Click(object sender, EventArgs e)
         {
             this.Close();
+        }
+
+        private void validarCPFToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Btngerar.Hide();
+            BntValidar.Show();  
+        }
+
+        private void geradorCPFToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            BntValidar.Hide();
+            Btngerar.Show();
+        }
+
+        private void Btngerar_Click(object sender, EventArgs e)
+        {
+            int[] cpf = new int[11];
+
+            Random random = new Random();
+            for (int i = 0; i < 9; i++)
+            {
+                cpf[i] = random.Next (0, 9);
+            }
+
+            int Soma = 0;
+            for (int i = 0; i < 9; i++)
+            {
+                Soma += cpf[i] * (10 - i);
+            }
+            int primeiroDigito = 11 - (Soma % 11);
+            if (primeiroDigito > 9)
+            {
+                primeiroDigito = 0;
+            }
+            cpf[9] = primeiroDigito;
+
+
+            for (int i = 0; i < 10; i++)
+            {
+                Soma += cpf[i] * (10 - i);
+            }
+            int segundoDigito = 11 - (Soma % 11);
+            if (segundoDigito > 9)
+            {
+                segundoDigito = 0;
+            }
+            cpf[10] = segundoDigito;
+
+            string Cpf = string.Join("", cpf);
+            Cpf = Cpf.Insert(3, ".").Insert(7, ".").Insert(11, "-");
+            TxtDigiteOpcao.Text = Cpf;
         }
     }
 }

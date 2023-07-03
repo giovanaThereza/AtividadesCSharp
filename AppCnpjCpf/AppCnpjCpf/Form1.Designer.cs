@@ -34,7 +34,12 @@
             this.label1 = new System.Windows.Forms.Label();
             this.RDBntCPF = new System.Windows.Forms.RadioButton();
             this.RDBntCNPJ = new System.Windows.Forms.RadioButton();
+            this.menuToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.validarCPFToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
+            this.Btngerar = new System.Windows.Forms.Button();
+            this.geradorCPFToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
             // BntValidar
@@ -101,13 +106,49 @@
             this.RDBntCNPJ.Text = "CNPJ";
             this.RDBntCNPJ.UseVisualStyleBackColor = true;
             // 
+            // menuToolStripMenuItem
+            // 
+            this.menuToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.validarCPFToolStripMenuItem,
+            this.geradorCPFToolStripMenuItem});
+            this.menuToolStripMenuItem.Name = "menuToolStripMenuItem";
+            this.menuToolStripMenuItem.Size = new System.Drawing.Size(50, 20);
+            this.menuToolStripMenuItem.Text = "Menu";
+            // 
+            // validarCPFToolStripMenuItem
+            // 
+            this.validarCPFToolStripMenuItem.Name = "validarCPFToolStripMenuItem";
+            this.validarCPFToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.validarCPFToolStripMenuItem.Text = "Validar CPF/CNPJ";
+            this.validarCPFToolStripMenuItem.Click += new System.EventHandler(this.validarCPFToolStripMenuItem_Click);
+            // 
             // menuStrip1
             // 
+            this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.menuToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
             this.menuStrip1.Size = new System.Drawing.Size(598, 24);
             this.menuStrip1.TabIndex = 8;
-            this.menuStrip1.Text = "menuStrip1";
+            this.menuStrip1.Text = "Menu";
+            // 
+            // Btngerar
+            // 
+            this.Btngerar.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Btngerar.Location = new System.Drawing.Point(54, 193);
+            this.Btngerar.Name = "Btngerar";
+            this.Btngerar.Size = new System.Drawing.Size(147, 53);
+            this.Btngerar.TabIndex = 9;
+            this.Btngerar.Text = "Gerar";
+            this.Btngerar.UseVisualStyleBackColor = true;
+            this.Btngerar.Click += new System.EventHandler(this.Btngerar_Click);
+            // 
+            // geradorCPFToolStripMenuItem
+            // 
+            this.geradorCPFToolStripMenuItem.Name = "geradorCPFToolStripMenuItem";
+            this.geradorCPFToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.geradorCPFToolStripMenuItem.Text = "Gerador CPF";
+            this.geradorCPFToolStripMenuItem.Click += new System.EventHandler(this.geradorCPFToolStripMenuItem_Click);
             // 
             // TxtAppSelecionar
             // 
@@ -115,6 +156,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.PowderBlue;
             this.ClientSize = new System.Drawing.Size(598, 310);
+            this.Controls.Add(this.Btngerar);
             this.Controls.Add(this.RDBntCNPJ);
             this.Controls.Add(this.RDBntCPF);
             this.Controls.Add(this.label1);
@@ -129,6 +171,8 @@
             this.MinimizeBox = false;
             this.Name = "TxtAppSelecionar";
             this.Text = "APP de CPF/CNPJ";
+            this.menuStrip1.ResumeLayout(false);
+            this.menuStrip1.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -142,7 +186,11 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.RadioButton RDBntCPF;
         private System.Windows.Forms.RadioButton RDBntCNPJ;
+        private System.Windows.Forms.ToolStripMenuItem menuToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem validarCPFToolStripMenuItem;
         private System.Windows.Forms.MenuStrip menuStrip1;
+        private System.Windows.Forms.ToolStripMenuItem geradorCPFToolStripMenuItem;
+        private System.Windows.Forms.Button Btngerar;
     }
 }
 
