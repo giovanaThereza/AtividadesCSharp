@@ -1,0 +1,11 @@
+C:\Users\giovana.tgmsilva\source\repos\Tela de Login\Tela de Login\obj\Debug\Tela de Login.csproj.AssemblyReference.cache
+C:\Users\giovana.tgmsilva\source\repos\Tela de Login\Tela de Login\obj\Debug\Tela de Login.csproj.SuggestedBindingRedirects.cache
+C:\Users\giovana.tgmsilva\source\repos\Tela de Login\Tela de Login\obj\Debug\Tela_de_Login.BuscaTec.resources
+C:\Users\giovana.tgmsilva\source\repos\Tela de Login\Tela de Login\obj\Debug\Tela_de_Login.Properties.Resources.resources
+C:\Users\giovana.tgmsilva\source\repos\Tela de Login\Tela de Login\obj\Debug\Tela de Login.csproj.GenerateResource.cache
+C:\Users\giovana.tgmsilva\source\repos\Tela de Login\Tela de Login\obj\Debug\Tela de Login.csproj.CoreCompileInputs.cache
+C:\Users\giovana.tgmsilva\source\repos\Tela de Login\Tela de Login\bin\Debug\Tela de Login.exe.config
+C:\Users\giovana.tgmsilva\source\repos\Tela de Login\Tela de Login\bin\Debug\Tela de Login.exe
+C:\Users\giovana.tgmsilva\source\repos\Tela de Login\Tela de Login\bin\Debug\Tela de Login.pdb
+C:\Users\giovana.tgmsilva\source\repos\Tela de Login\Tela de Login\obj\Debug\Tela de Login.exe
+C:\Users\giovana.tgmsilva\source\repos\Tela de Login\Tela de Login\obj\Debug\Tela de Login.pdb

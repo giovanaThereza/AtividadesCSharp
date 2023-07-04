@@ -68,7 +68,7 @@ namespace Validação_de_CPF
             string CPFcru = string.Join("", vt);
             string CPFrenovado = $"{CPFcru.Substring(0, 3)}.{CPFcru.Substring(3, 3)}.{CPFcru.Substring(6, 3)}-{CPFcru.Substring(9, 2)}";
 
-            if (resto1 == vt[9] || resto2 == vt[10]) //Validação
+            if (resto1 == vt[9] && resto2 == vt[10]) //Validação
             {
                 Console.WriteLine("\n===================================");
                 Console.WriteLine($"Seu CPF está aprovado: {CPFrenovado}");
