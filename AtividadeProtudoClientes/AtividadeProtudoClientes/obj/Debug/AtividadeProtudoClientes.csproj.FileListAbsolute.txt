@@ -1,0 +1,8 @@
+C:\Users\giovana.tgmsilva\source\repos\AtividadeProtudoClientes\AtividadeProtudoClientes\bin\Debug\AtividadeProtudoClientes.exe.config
+C:\Users\giovana.tgmsilva\source\repos\AtividadeProtudoClientes\AtividadeProtudoClientes\bin\Debug\AtividadeProtudoClientes.exe
+C:\Users\giovana.tgmsilva\source\repos\AtividadeProtudoClientes\AtividadeProtudoClientes\bin\Debug\AtividadeProtudoClientes.pdb
+C:\Users\giovana.tgmsilva\source\repos\AtividadeProtudoClientes\AtividadeProtudoClientes\obj\Debug\AtividadeProtudoClientes.csproj.AssemblyReference.cache
+C:\Users\giovana.tgmsilva\source\repos\AtividadeProtudoClientes\AtividadeProtudoClientes\obj\Debug\AtividadeProtudoClientes.csproj.SuggestedBindingRedirects.cache
+C:\Users\giovana.tgmsilva\source\repos\AtividadeProtudoClientes\AtividadeProtudoClientes\obj\Debug\AtividadeProtudoClientes.csproj.CoreCompileInputs.cache
+C:\Users\giovana.tgmsilva\source\repos\AtividadeProtudoClientes\AtividadeProtudoClientes\obj\Debug\AtividadeProtudoClientes.exe
+C:\Users\giovana.tgmsilva\source\repos\AtividadeProtudoClientes\AtividadeProtudoClientes\obj\Debug\AtividadeProtudoClientes.pdb
