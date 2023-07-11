@@ -9,3 +9,4 @@ C:\Users\giovana.tgmsilva\source\repos\Tela de Login\Tela de Login\bin\Debug\Tel
 C:\Users\giovana.tgmsilva\source\repos\Tela de Login\Tela de Login\bin\Debug\Tela de Login.pdb
 C:\Users\giovana.tgmsilva\source\repos\Tela de Login\Tela de Login\obj\Debug\Tela de Login.exe
 C:\Users\giovana.tgmsilva\source\repos\Tela de Login\Tela de Login\obj\Debug\Tela de Login.pdb
+C:\Users\giovana.tgmsilva\source\repos\Tela de Login\Tela de Login\obj\Debug\Tela_de_Login.PaginaInicial.resources

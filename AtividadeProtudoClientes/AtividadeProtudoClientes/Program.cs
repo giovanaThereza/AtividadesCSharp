@@ -23,20 +23,21 @@ namespace AtividadeProtudoClientes
             Cliente.ImprimeDetalhes();
             
             Console.WriteLine("============================");
-            Console.WriteLine("O pedido de José foi :");
+            Console.WriteLine("O pedido de José foi: ");
             Console.WriteLine("============================");
            
             Produto Produto = new Produto();
 
             Produto.IdProduto = 2;
-            Produto.NomeProduto = "Lápís";
+            Produto.NomeProduto = "Lapís";
             Produto.Quantidade = 5;
-            Produto.Preco = 12.50;
+            Produto.Preco = 12.50; 
             
             Produto.ImprimeDetalhes();
            
             Doces doces = new Doces();
 
+            doces.IdDoces = 5;
             doces.NomeDoce = "Bem Casado";
             doces.QuantidadeD = 2;
             doces.PrecoD = 5.0;
