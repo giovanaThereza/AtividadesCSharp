@@ -37,15 +37,15 @@
             this.TxtAutor = new System.Windows.Forms.TextBox();
             this.TxtNumeroPgns = new System.Windows.Forms.TextBox();
             this.TxtPreco = new System.Windows.Forms.TextBox();
-            this.TxtAnoPublic = new System.Windows.Forms.TextBox();
             this.LbLISBN = new System.Windows.Forms.Label();
-            this.TxtISBN = new System.Windows.Forms.TextBox();
             this.btnAdicionar = new System.Windows.Forms.Button();
             this.btnAtualizar = new System.Windows.Forms.Button();
             this.btnExcluir = new System.Windows.Forms.Button();
             this.btnPesquisar = new System.Windows.Forms.Button();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            this.DgvLivros = new System.Windows.Forms.DataGridView();
+            this.TxtAno_Public = new System.Windows.Forms.MaskedTextBox();
+            this.TxtISBN = new System.Windows.Forms.MaskedTextBox();
+            ((System.ComponentModel.ISupportInitialize)(this.DgvLivros)).BeginInit();
             this.SuspendLayout();
             // 
             // LblTítulo
@@ -67,7 +67,6 @@
             this.LblAutor.Size = new System.Drawing.Size(43, 16);
             this.LblAutor.TabIndex = 2;
             this.LblAutor.Text = "Autor";
-            this.LblAutor.Click += new System.EventHandler(this.LblAutor_Click);
             // 
             // LblNumeroPgns
             // 
@@ -83,7 +82,7 @@
             // 
             this.LblPreco.AutoSize = true;
             this.LblPreco.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.LblPreco.Location = new System.Drawing.Point(304, 80);
+            this.LblPreco.Location = new System.Drawing.Point(337, 84);
             this.LblPreco.Name = "LblPreco";
             this.LblPreco.Size = new System.Drawing.Size(48, 16);
             this.LblPreco.TabIndex = 4;
@@ -126,36 +125,20 @@
             // TxtPreco
             // 
             this.TxtPreco.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TxtPreco.Location = new System.Drawing.Point(358, 74);
+            this.TxtPreco.Location = new System.Drawing.Point(391, 74);
             this.TxtPreco.Name = "TxtPreco";
             this.TxtPreco.Size = new System.Drawing.Size(100, 26);
             this.TxtPreco.TabIndex = 10;
-            // 
-            // TxtAnoPublic
-            // 
-            this.TxtAnoPublic.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TxtAnoPublic.Location = new System.Drawing.Point(188, 124);
-            this.TxtAnoPublic.Name = "TxtAnoPublic";
-            this.TxtAnoPublic.Size = new System.Drawing.Size(87, 26);
-            this.TxtAnoPublic.TabIndex = 11;
             // 
             // LbLISBN
             // 
             this.LbLISBN.AutoSize = true;
             this.LbLISBN.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.LbLISBN.Location = new System.Drawing.Point(449, 217);
+            this.LbLISBN.Location = new System.Drawing.Point(337, 130);
             this.LbLISBN.Name = "LbLISBN";
             this.LbLISBN.Size = new System.Drawing.Size(42, 16);
             this.LbLISBN.TabIndex = 12;
             this.LbLISBN.Text = "ISBN";
-            // 
-            // TxtISBN
-            // 
-            this.TxtISBN.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TxtISBN.Location = new System.Drawing.Point(506, 211);
-            this.TxtISBN.Name = "TxtISBN";
-            this.TxtISBN.Size = new System.Drawing.Size(90, 26);
-            this.TxtISBN.TabIndex = 13;
             // 
             // btnAdicionar
             // 
@@ -166,7 +149,7 @@
             this.btnAdicionar.TabIndex = 14;
             this.btnAdicionar.Text = "Adicionar";
             this.btnAdicionar.UseVisualStyleBackColor = true;
-            this.btnAdicionar.Click += new System.EventHandler(this.button1_Click);
+            this.btnAdicionar.Click += new System.EventHandler(this.btnAdicionar_Click);
             // 
             // btnAtualizar
             // 
@@ -191,34 +174,53 @@
             // btnPesquisar
             // 
             this.btnPesquisar.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnPesquisar.Location = new System.Drawing.Point(602, 209);
+            this.btnPesquisar.Location = new System.Drawing.Point(587, 125);
             this.btnPesquisar.Name = "btnPesquisar";
             this.btnPesquisar.Size = new System.Drawing.Size(104, 32);
             this.btnPesquisar.TabIndex = 17;
             this.btnPesquisar.Text = "Pesquisar";
             this.btnPesquisar.UseVisualStyleBackColor = true;
             // 
-            // dataGridView1
+            // DgvLivros
             // 
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(12, 268);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(694, 170);
-            this.dataGridView1.TabIndex = 20;
+            this.DgvLivros.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.DgvLivros.Location = new System.Drawing.Point(12, 268);
+            this.DgvLivros.Name = "DgvLivros";
+            this.DgvLivros.Size = new System.Drawing.Size(694, 170);
+            this.DgvLivros.TabIndex = 20;
+            // 
+            // TxtAno_Public
+            // 
+            this.TxtAno_Public.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.TxtAno_Public.Location = new System.Drawing.Point(180, 125);
+            this.TxtAno_Public.Mask = "00/00/0000";
+            this.TxtAno_Public.Name = "TxtAno_Public";
+            this.TxtAno_Public.Size = new System.Drawing.Size(100, 26);
+            this.TxtAno_Public.TabIndex = 21;
+            this.TxtAno_Public.ValidatingType = typeof(System.DateTime);
+            // 
+            // TxtISBN
+            // 
+            this.TxtISBN.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.TxtISBN.Location = new System.Drawing.Point(391, 124);
+            this.TxtISBN.Mask = "000-00-0000-000-0";
+            this.TxtISBN.Name = "TxtISBN";
+            this.TxtISBN.Size = new System.Drawing.Size(173, 26);
+            this.TxtISBN.TabIndex = 22;
             // 
             // FrmCadastroLivro
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(718, 450);
-            this.Controls.Add(this.dataGridView1);
+            this.ClientSize = new System.Drawing.Size(746, 451);
+            this.Controls.Add(this.TxtISBN);
+            this.Controls.Add(this.TxtAno_Public);
+            this.Controls.Add(this.DgvLivros);
             this.Controls.Add(this.btnPesquisar);
             this.Controls.Add(this.btnExcluir);
             this.Controls.Add(this.btnAtualizar);
             this.Controls.Add(this.btnAdicionar);
-            this.Controls.Add(this.TxtISBN);
             this.Controls.Add(this.LbLISBN);
-            this.Controls.Add(this.TxtAnoPublic);
             this.Controls.Add(this.TxtPreco);
             this.Controls.Add(this.TxtNumeroPgns);
             this.Controls.Add(this.TxtAutor);
@@ -230,7 +232,8 @@
             this.Controls.Add(this.LblTítulo);
             this.Name = "FrmCadastroLivro";
             this.Text = "Cadastro de Livro";
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            this.Load += new System.EventHandler(this.FrmCadastroLivro_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.DgvLivros)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -246,13 +249,13 @@
         private System.Windows.Forms.TextBox TxtAutor;
         private System.Windows.Forms.TextBox TxtNumeroPgns;
         private System.Windows.Forms.TextBox TxtPreco;
-        private System.Windows.Forms.TextBox TxtAnoPublic;
         private System.Windows.Forms.Label LbLISBN;
-        private System.Windows.Forms.TextBox TxtISBN;
         private System.Windows.Forms.Button btnAdicionar;
         private System.Windows.Forms.Button btnAtualizar;
         private System.Windows.Forms.Button btnExcluir;
         private System.Windows.Forms.Button btnPesquisar;
-        private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.DataGridView DgvLivros;
+        private System.Windows.Forms.MaskedTextBox TxtAno_Public;
+        private System.Windows.Forms.MaskedTextBox TxtISBN;
     }
 }
