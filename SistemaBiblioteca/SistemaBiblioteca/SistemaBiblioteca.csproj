@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{3C9E88C4-9451-4F14-87C4-398F0EDB7F01}</ProjectGuid>
+    <ProjectGuid>{CAB1168B-5BA7-4065-A613-BCF1BD0F83F8}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <RootNamespace>SistemaBiblioteca</RootNamespace>
     <AssemblyName>SistemaBiblioteca</AssemblyName>
@@ -46,25 +46,34 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="frmCadastroAluno.cs">
+    <Compile Include="FrmCadastroAluno.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmCadastroAluno.Designer.cs">
-      <DependentUpon>frmCadastroAluno.cs</DependentUpon>
+    <Compile Include="FrmCadastroAluno.Designer.cs">
+      <DependentUpon>FrmCadastroAluno.cs</DependentUpon>
     </Compile>
-    <Compile Include="frmCadastroLivro.cs">
+    <Compile Include="FrmCadastroLivro.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmCadastroLivro.Designer.cs">
-      <DependentUpon>frmCadastroLivro.cs</DependentUpon>
+    <Compile Include="FrmCadastroLivro.Designer.cs">
+      <DependentUpon>FrmCadastroLivro.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmPrincipal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmPrincipal.Designer.cs">
+      <DependentUpon>FrmPrincipal.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="frmCadastroAluno.resx">
-      <DependentUpon>frmCadastroAluno.cs</DependentUpon>
+    <EmbeddedResource Include="FrmCadastroAluno.resx">
+      <DependentUpon>FrmCadastroAluno.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="frmCadastroLivro.resx">
-      <DependentUpon>frmCadastroLivro.cs</DependentUpon>
+    <EmbeddedResource Include="FrmCadastroLivro.resx">
+      <DependentUpon>FrmCadastroLivro.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmPrincipal.resx">
+      <DependentUpon>FrmPrincipal.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

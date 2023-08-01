@@ -28,237 +28,248 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.LblNome = new System.Windows.Forms.Label();
-            this.TxtNome = new System.Windows.Forms.TextBox();
-            this.LblCPF = new System.Windows.Forms.Label();
-            this.LblEmail = new System.Windows.Forms.Label();
-            this.TxtEmail = new System.Windows.Forms.TextBox();
-            this.LblDataNascimento = new System.Windows.Forms.Label();
-            this.LblTelefone = new System.Windows.Forms.Label();
-            this.LblCelular = new System.Windows.Forms.Label();
-            this.BtnAdicionar = new System.Windows.Forms.Button();
-            this.BtnExcluir = new System.Windows.Forms.Button();
-            this.BtnAtualuzar = new System.Windows.Forms.Button();
-            this.BtnPesquisar = new System.Windows.Forms.Button();
-            this.LblCodCliente = new System.Windows.Forms.Label();
-            this.DgvAlunos = new System.Windows.Forms.DataGridView();
-            this.TxtDataNascimento = new System.Windows.Forms.MaskedTextBox();
-            this.TxtCPF = new System.Windows.Forms.MaskedTextBox();
-            this.TxtTelefone = new System.Windows.Forms.MaskedTextBox();
-            this.TxtCelular = new System.Windows.Forms.MaskedTextBox();
-            this.TxtCodCliente = new System.Windows.Forms.MaskedTextBox();
-            ((System.ComponentModel.ISupportInitialize)(this.DgvAlunos)).BeginInit();
+            this.label1 = new System.Windows.Forms.Label();
+            this.txtNome = new System.Windows.Forms.TextBox();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.txtEmail = new System.Windows.Forms.TextBox();
+            this.label4 = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
+            this.label6 = new System.Windows.Forms.Label();
+            this.btnAdicionar = new System.Windows.Forms.Button();
+            this.label7 = new System.Windows.Forms.Label();
+            this.dgvAlunos = new System.Windows.Forms.DataGridView();
+            this.btnAtualizar = new System.Windows.Forms.Button();
+            this.btnExcluir = new System.Windows.Forms.Button();
+            this.btnPesquisar = new System.Windows.Forms.Button();
+            this.txtDataNascimento = new System.Windows.Forms.MaskedTextBox();
+            this.txtCPF = new System.Windows.Forms.MaskedTextBox();
+            this.txtTelefone = new System.Windows.Forms.MaskedTextBox();
+            this.txtCelular = new System.Windows.Forms.MaskedTextBox();
+            this.MatxtCodCliente = new System.Windows.Forms.MaskedTextBox();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvAlunos)).BeginInit();
             this.SuspendLayout();
             // 
-            // LblNome
+            // label1
             // 
-            this.LblNome.AutoSize = true;
-            this.LblNome.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.LblNome.Location = new System.Drawing.Point(39, 50);
-            this.LblNome.Name = "LblNome";
-            this.LblNome.Size = new System.Drawing.Size(48, 16);
-            this.LblNome.TabIndex = 0;
-            this.LblNome.Text = "Nome";
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(24, 30);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(48, 16);
+            this.label1.TabIndex = 0;
+            this.label1.Text = "Nome";
             // 
-            // TxtNome
+            // txtNome
             // 
-            this.TxtNome.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TxtNome.Location = new System.Drawing.Point(113, 44);
-            this.TxtNome.Name = "TxtNome";
-            this.TxtNome.Size = new System.Drawing.Size(280, 26);
-            this.TxtNome.TabIndex = 1;
+            this.txtNome.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtNome.Location = new System.Drawing.Point(80, 24);
+            this.txtNome.Name = "txtNome";
+            this.txtNome.Size = new System.Drawing.Size(240, 26);
+            this.txtNome.TabIndex = 1;
             // 
-            // LblCPF
+            // label2
             // 
-            this.LblCPF.AutoSize = true;
-            this.LblCPF.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.LblCPF.Location = new System.Drawing.Point(430, 50);
-            this.LblCPF.Name = "LblCPF";
-            this.LblCPF.Size = new System.Drawing.Size(36, 16);
-            this.LblCPF.TabIndex = 2;
-            this.LblCPF.Text = "CPF";
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(389, 30);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(36, 16);
+            this.label2.TabIndex = 2;
+            this.label2.Text = "CPF";
             // 
-            // LblEmail
+            // label3
             // 
-            this.LblEmail.AutoSize = true;
-            this.LblEmail.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.LblEmail.Location = new System.Drawing.Point(41, 112);
-            this.LblEmail.Name = "LblEmail";
-            this.LblEmail.Size = new System.Drawing.Size(46, 16);
-            this.LblEmail.TabIndex = 4;
-            this.LblEmail.Text = "Email";
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Location = new System.Drawing.Point(24, 76);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(51, 16);
+            this.label3.TabIndex = 4;
+            this.label3.Text = "E-mail";
             // 
-            // TxtEmail
+            // txtEmail
             // 
-            this.TxtEmail.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TxtEmail.Location = new System.Drawing.Point(113, 102);
-            this.TxtEmail.Name = "TxtEmail";
-            this.TxtEmail.Size = new System.Drawing.Size(280, 26);
-            this.TxtEmail.TabIndex = 5;
+            this.txtEmail.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtEmail.Location = new System.Drawing.Point(80, 70);
+            this.txtEmail.Name = "txtEmail";
+            this.txtEmail.Size = new System.Drawing.Size(240, 26);
+            this.txtEmail.TabIndex = 5;
             // 
-            // LblDataNascimento
+            // label4
             // 
-            this.LblDataNascimento.AutoSize = true;
-            this.LblDataNascimento.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.LblDataNascimento.Location = new System.Drawing.Point(430, 108);
-            this.LblDataNascimento.Name = "LblDataNascimento";
-            this.LblDataNascimento.Size = new System.Drawing.Size(148, 16);
-            this.LblDataNascimento.TabIndex = 6;
-            this.LblDataNascimento.Text = "Data de Nascimento";
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Location = new System.Drawing.Point(389, 76);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(148, 16);
+            this.label4.TabIndex = 6;
+            this.label4.Text = "Data de Nascimento";
             // 
-            // LblTelefone
+            // label5
             // 
-            this.LblTelefone.AutoSize = true;
-            this.LblTelefone.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.LblTelefone.Location = new System.Drawing.Point(26, 164);
-            this.LblTelefone.Name = "LblTelefone";
-            this.LblTelefone.Size = new System.Drawing.Size(69, 16);
-            this.LblTelefone.TabIndex = 8;
-            this.LblTelefone.Text = "Telefone";
+            this.label5.AutoSize = true;
+            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.Location = new System.Drawing.Point(24, 118);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(69, 16);
+            this.label5.TabIndex = 8;
+            this.label5.Text = "Telefone";
             // 
-            // LblCelular
+            // label6
             // 
-            this.LblCelular.AutoSize = true;
-            this.LblCelular.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.LblCelular.Location = new System.Drawing.Point(347, 164);
-            this.LblCelular.Name = "LblCelular";
-            this.LblCelular.Size = new System.Drawing.Size(56, 16);
-            this.LblCelular.TabIndex = 10;
-            this.LblCelular.Text = "Celular";
+            this.label6.AutoSize = true;
+            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.Location = new System.Drawing.Point(336, 118);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(56, 16);
+            this.label6.TabIndex = 10;
+            this.label6.Text = "Celular";
             // 
-            // BtnAdicionar
+            // btnAdicionar
             // 
-            this.BtnAdicionar.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtnAdicionar.Location = new System.Drawing.Point(29, 244);
-            this.BtnAdicionar.Name = "BtnAdicionar";
-            this.BtnAdicionar.Size = new System.Drawing.Size(93, 39);
-            this.BtnAdicionar.TabIndex = 12;
-            this.BtnAdicionar.Text = "Adicionar";
-            this.BtnAdicionar.UseVisualStyleBackColor = true;
-            this.BtnAdicionar.Click += new System.EventHandler(this.BtnAdicionar_Click);
+            this.btnAdicionar.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnAdicionar.Location = new System.Drawing.Point(17, 189);
+            this.btnAdicionar.Name = "btnAdicionar";
+            this.btnAdicionar.Size = new System.Drawing.Size(97, 34);
+            this.btnAdicionar.TabIndex = 12;
+            this.btnAdicionar.Text = "Adicionar";
+            this.btnAdicionar.UseVisualStyleBackColor = true;
+            this.btnAdicionar.Click += new System.EventHandler(this.btnAdicionar_Click);
             // 
-            // BtnExcluir
+            // label7
             // 
-            this.BtnExcluir.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtnExcluir.Location = new System.Drawing.Point(252, 244);
-            this.BtnExcluir.Name = "BtnExcluir";
-            this.BtnExcluir.Size = new System.Drawing.Size(93, 39);
-            this.BtnExcluir.TabIndex = 13;
-            this.BtnExcluir.Text = "Excluir";
-            this.BtnExcluir.UseVisualStyleBackColor = true;
+            this.label7.AutoSize = true;
+            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label7.Location = new System.Drawing.Point(351, 198);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(91, 16);
+            this.label7.TabIndex = 15;
+            this.label7.Text = "Cod. Cliente";
             // 
-            // BtnAtualuzar
+            // dgvAlunos
             // 
-            this.BtnAtualuzar.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtnAtualuzar.Location = new System.Drawing.Point(139, 244);
-            this.BtnAtualuzar.Name = "BtnAtualuzar";
-            this.BtnAtualuzar.Size = new System.Drawing.Size(93, 39);
-            this.BtnAtualuzar.TabIndex = 14;
-            this.BtnAtualuzar.Text = "Atualizar";
-            this.BtnAtualuzar.UseVisualStyleBackColor = true;
+            this.dgvAlunos.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgvAlunos.EditMode = System.Windows.Forms.DataGridViewEditMode.EditProgrammatically;
+            this.dgvAlunos.Location = new System.Drawing.Point(17, 238);
+            this.dgvAlunos.Name = "dgvAlunos";
+            this.dgvAlunos.RowHeadersWidth = 51;
+            this.dgvAlunos.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
+            this.dgvAlunos.Size = new System.Drawing.Size(714, 204);
+            this.dgvAlunos.TabIndex = 18;
+            this.dgvAlunos.CellMouseDoubleClick += new System.Windows.Forms.DataGridViewCellMouseEventHandler(this.dgvAlunos_CellMouseDoubleClick);
             // 
-            // BtnPesquisar
+            // btnAtualizar
             // 
-            this.BtnPesquisar.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtnPesquisar.Location = new System.Drawing.Point(755, 244);
-            this.BtnPesquisar.Name = "BtnPesquisar";
-            this.BtnPesquisar.Size = new System.Drawing.Size(93, 39);
-            this.BtnPesquisar.TabIndex = 15;
-            this.BtnPesquisar.Text = "Pesquisar";
-            this.BtnPesquisar.UseVisualStyleBackColor = true;
+            this.btnAtualizar.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnAtualizar.Location = new System.Drawing.Point(120, 189);
+            this.btnAtualizar.Name = "btnAtualizar";
+            this.btnAtualizar.Size = new System.Drawing.Size(97, 34);
+            this.btnAtualizar.TabIndex = 19;
+            this.btnAtualizar.Text = "Atualizar";
+            this.btnAtualizar.UseVisualStyleBackColor = true;
+            this.btnAtualizar.Click += new System.EventHandler(this.btnAtualizar_Click);
             // 
-            // LblCodCliente
+            // btnExcluir
             // 
-            this.LblCodCliente.AutoSize = true;
-            this.LblCodCliente.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.LblCodCliente.Location = new System.Drawing.Point(465, 255);
-            this.LblCodCliente.Name = "LblCodCliente";
-            this.LblCodCliente.Size = new System.Drawing.Size(87, 16);
-            this.LblCodCliente.TabIndex = 17;
-            this.LblCodCliente.Text = "Cod.Cliente";
+            this.btnExcluir.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnExcluir.Location = new System.Drawing.Point(223, 189);
+            this.btnExcluir.Name = "btnExcluir";
+            this.btnExcluir.Size = new System.Drawing.Size(97, 34);
+            this.btnExcluir.TabIndex = 20;
+            this.btnExcluir.Text = "Excluir";
+            this.btnExcluir.UseVisualStyleBackColor = true;
+            this.btnExcluir.Click += new System.EventHandler(this.btnExcluir_Click);
             // 
-            // DgvAlunos
+            // btnPesquisar
             // 
-            this.DgvAlunos.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.DgvAlunos.Location = new System.Drawing.Point(29, 305);
-            this.DgvAlunos.Name = "DgvAlunos";
-            this.DgvAlunos.Size = new System.Drawing.Size(853, 211);
-            this.DgvAlunos.TabIndex = 18;
+            this.btnPesquisar.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnPesquisar.Location = new System.Drawing.Point(634, 180);
+            this.btnPesquisar.Name = "btnPesquisar";
+            this.btnPesquisar.Size = new System.Drawing.Size(97, 34);
+            this.btnPesquisar.TabIndex = 21;
+            this.btnPesquisar.Text = "Pesquisar";
+            this.btnPesquisar.UseVisualStyleBackColor = true;
+            this.btnPesquisar.Click += new System.EventHandler(this.btnPesquisar_Click);
             // 
-            // TxtDataNascimento
+            // txtDataNascimento
             // 
-            this.TxtDataNascimento.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TxtDataNascimento.Location = new System.Drawing.Point(584, 104);
-            this.TxtDataNascimento.Mask = "00/00/0000";
-            this.TxtDataNascimento.Name = "TxtDataNascimento";
-            this.TxtDataNascimento.Size = new System.Drawing.Size(175, 26);
-            this.TxtDataNascimento.TabIndex = 19;
-            this.TxtDataNascimento.ValidatingType = typeof(System.DateTime);
+            this.txtDataNascimento.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtDataNascimento.Location = new System.Drawing.Point(542, 70);
+            this.txtDataNascimento.Margin = new System.Windows.Forms.Padding(2);
+            this.txtDataNascimento.Mask = "00/00/0000";
+            this.txtDataNascimento.Name = "txtDataNascimento";
+            this.txtDataNascimento.Size = new System.Drawing.Size(139, 26);
+            this.txtDataNascimento.TabIndex = 22;
+            this.txtDataNascimento.ValidatingType = typeof(System.DateTime);
             // 
-            // TxtCPF
+            // txtCPF
             // 
-            this.TxtCPF.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TxtCPF.Location = new System.Drawing.Point(483, 44);
-            this.TxtCPF.Mask = "000\\.000\\.000-00";
-            this.TxtCPF.Name = "TxtCPF";
-            this.TxtCPF.Size = new System.Drawing.Size(175, 26);
-            this.TxtCPF.TabIndex = 20;
+            this.txtCPF.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtCPF.Location = new System.Drawing.Point(430, 24);
+            this.txtCPF.Margin = new System.Windows.Forms.Padding(2);
+            this.txtCPF.Mask = "000\\.000\\.000-00";
+            this.txtCPF.Name = "txtCPF";
+            this.txtCPF.Size = new System.Drawing.Size(156, 26);
+            this.txtCPF.TabIndex = 23;
             // 
-            // TxtTelefone
+            // txtTelefone
             // 
-            this.TxtTelefone.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TxtTelefone.Location = new System.Drawing.Point(113, 160);
-            this.TxtTelefone.Mask = "(00)0000-0000";
-            this.TxtTelefone.Name = "TxtTelefone";
-            this.TxtTelefone.Size = new System.Drawing.Size(175, 26);
-            this.TxtTelefone.TabIndex = 21;
+            this.txtTelefone.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtTelefone.Location = new System.Drawing.Point(108, 112);
+            this.txtTelefone.Margin = new System.Windows.Forms.Padding(2);
+            this.txtTelefone.Mask = "(00) 0000-0000";
+            this.txtTelefone.Name = "txtTelefone";
+            this.txtTelefone.Size = new System.Drawing.Size(179, 26);
+            this.txtTelefone.TabIndex = 24;
             // 
-            // TxtCelular
+            // txtCelular
             // 
-            this.TxtCelular.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TxtCelular.Location = new System.Drawing.Point(419, 160);
-            this.TxtCelular.Mask = "(00)00000-0000";
-            this.TxtCelular.Name = "TxtCelular";
-            this.TxtCelular.Size = new System.Drawing.Size(175, 26);
-            this.TxtCelular.TabIndex = 22;
+            this.txtCelular.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtCelular.Location = new System.Drawing.Point(407, 112);
+            this.txtCelular.Margin = new System.Windows.Forms.Padding(2);
+            this.txtCelular.Mask = "(00) 00000-0000";
+            this.txtCelular.Name = "txtCelular";
+            this.txtCelular.Size = new System.Drawing.Size(179, 26);
+            this.txtCelular.TabIndex = 25;
             // 
-            // TxtCodCliente
+            // MatxtCodCliente
             // 
-            this.TxtCodCliente.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TxtCodCliente.Location = new System.Drawing.Point(558, 249);
-            this.TxtCodCliente.Mask = "000-00-0000-000-0";
-            this.TxtCodCliente.Name = "TxtCodCliente";
-            this.TxtCodCliente.Size = new System.Drawing.Size(175, 26);
-            this.TxtCodCliente.TabIndex = 23;
+            this.MatxtCodCliente.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.MatxtCodCliente.Location = new System.Drawing.Point(448, 192);
+            this.MatxtCodCliente.Mask = "000-00-0000-000-0";
+            this.MatxtCodCliente.Name = "MatxtCodCliente";
+            this.MatxtCodCliente.Size = new System.Drawing.Size(162, 26);
+            this.MatxtCodCliente.TabIndex = 26;
             // 
             // FrmCadastroAluno
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(914, 528);
-            this.Controls.Add(this.TxtCodCliente);
-            this.Controls.Add(this.TxtCelular);
-            this.Controls.Add(this.TxtTelefone);
-            this.Controls.Add(this.TxtCPF);
-            this.Controls.Add(this.TxtDataNascimento);
-            this.Controls.Add(this.DgvAlunos);
-            this.Controls.Add(this.LblCodCliente);
-            this.Controls.Add(this.BtnPesquisar);
-            this.Controls.Add(this.BtnAtualuzar);
-            this.Controls.Add(this.BtnExcluir);
-            this.Controls.Add(this.BtnAdicionar);
-            this.Controls.Add(this.LblCelular);
-            this.Controls.Add(this.LblTelefone);
-            this.Controls.Add(this.LblDataNascimento);
-            this.Controls.Add(this.TxtEmail);
-            this.Controls.Add(this.LblEmail);
-            this.Controls.Add(this.LblCPF);
-            this.Controls.Add(this.TxtNome);
-            this.Controls.Add(this.LblNome);
+            this.ClientSize = new System.Drawing.Size(755, 454);
+            this.Controls.Add(this.MatxtCodCliente);
+            this.Controls.Add(this.txtCelular);
+            this.Controls.Add(this.txtTelefone);
+            this.Controls.Add(this.txtCPF);
+            this.Controls.Add(this.txtDataNascimento);
+            this.Controls.Add(this.btnPesquisar);
+            this.Controls.Add(this.btnExcluir);
+            this.Controls.Add(this.btnAtualizar);
+            this.Controls.Add(this.dgvAlunos);
+            this.Controls.Add(this.label7);
+            this.Controls.Add(this.btnAdicionar);
+            this.Controls.Add(this.label6);
+            this.Controls.Add(this.label5);
+            this.Controls.Add(this.label4);
+            this.Controls.Add(this.txtEmail);
+            this.Controls.Add(this.label3);
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.txtNome);
+            this.Controls.Add(this.label1);
             this.Name = "FrmCadastroAluno";
             this.Text = "Cadastro de Aluno";
             this.Load += new System.EventHandler(this.FrmCadastroAluno_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.DgvAlunos)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvAlunos)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -266,25 +277,25 @@
 
         #endregion
 
-        private System.Windows.Forms.Label LblNome;
-        private System.Windows.Forms.TextBox TxtNome;
-        private System.Windows.Forms.Label LblCPF;
-        private System.Windows.Forms.Label LblEmail;
-        private System.Windows.Forms.TextBox TxtEmail;
-        private System.Windows.Forms.Label LblDataNascimento;
-        private System.Windows.Forms.Label LblTelefone;
-        private System.Windows.Forms.Label LblCelular;
-        private System.Windows.Forms.Button BtnAdicionar;
-        private System.Windows.Forms.Button BtnExcluir;
-        private System.Windows.Forms.Button BtnAtualuzar;
-        private System.Windows.Forms.Button BtnPesquisar;
-        private System.Windows.Forms.Label LblCodCliente;
-        private System.Windows.Forms.DataGridView DgvAlunos;
-        private System.Windows.Forms.MaskedTextBox TxtDataNascimento;
-        private System.Windows.Forms.MaskedTextBox TxtCPF;
-        private System.Windows.Forms.MaskedTextBox TxtTelefone;
-        private System.Windows.Forms.MaskedTextBox TxtCelular;
-        private System.Windows.Forms.MaskedTextBox TxtCodCliente;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.TextBox txtNome;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.TextBox txtEmail;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.Button btnAdicionar;
+        private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.DataGridView dgvAlunos;
+        private System.Windows.Forms.Button btnAtualizar;
+        private System.Windows.Forms.Button btnExcluir;
+        private System.Windows.Forms.Button btnPesquisar;
+        private System.Windows.Forms.MaskedTextBox txtDataNascimento;
+        private System.Windows.Forms.MaskedTextBox txtCPF;
+        private System.Windows.Forms.MaskedTextBox txtTelefone;
+        private System.Windows.Forms.MaskedTextBox txtCelular;
+        private System.Windows.Forms.MaskedTextBox MatxtCodCliente;
     }
 }
 
