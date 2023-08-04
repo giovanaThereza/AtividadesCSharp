@@ -32,7 +32,7 @@
             this.btnExcluir = new System.Windows.Forms.Button();
             this.btnAtualizar = new System.Windows.Forms.Button();
             this.dgvLivro = new System.Windows.Forms.DataGridView();
-            this.txtPesquisar = new System.Windows.Forms.TextBox();
+            this.tXtPesquisar = new System.Windows.Forms.TextBox();
             this.LblCodlivro = new System.Windows.Forms.Label();
             this.btnAdicionar = new System.Windows.Forms.Button();
             this.TxtPreco = new System.Windows.Forms.TextBox();
@@ -59,6 +59,7 @@
             this.btnPesquisar.TabIndex = 40;
             this.btnPesquisar.Text = "Pesquisar";
             this.btnPesquisar.UseVisualStyleBackColor = true;
+            this.btnPesquisar.Click += new System.EventHandler(this.btnPesquisar_Click);
             // 
             // btnExcluir
             // 
@@ -69,6 +70,7 @@
             this.btnExcluir.TabIndex = 39;
             this.btnExcluir.Text = "Excluir";
             this.btnExcluir.UseVisualStyleBackColor = true;
+            this.btnExcluir.Click += new System.EventHandler(this.btnExcluir_Click);
             // 
             // btnAtualizar
             // 
@@ -79,6 +81,7 @@
             this.btnAtualizar.TabIndex = 38;
             this.btnAtualizar.Text = "Atualizar";
             this.btnAtualizar.UseVisualStyleBackColor = true;
+            this.btnAtualizar.Click += new System.EventHandler(this.btnAtualizar_Click);
             // 
             // dgvLivro
             // 
@@ -89,13 +92,14 @@
             this.dgvLivro.TabIndex = 37;
             this.dgvLivro.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvLivro_CellContentClick);
             // 
-            // txtPesquisar
+            // tXtPesquisar
             // 
-            this.txtPesquisar.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtPesquisar.Location = new System.Drawing.Point(535, 211);
-            this.txtPesquisar.Name = "txtPesquisar";
-            this.txtPesquisar.Size = new System.Drawing.Size(89, 26);
-            this.txtPesquisar.TabIndex = 36;
+            this.tXtPesquisar.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.tXtPesquisar.Location = new System.Drawing.Point(535, 211);
+            this.tXtPesquisar.Name = "tXtPesquisar";
+            this.tXtPesquisar.Size = new System.Drawing.Size(89, 26);
+            this.tXtPesquisar.TabIndex = 36;
+
             // 
             // LblCodlivro
             // 
@@ -238,7 +242,7 @@
             this.Controls.Add(this.btnExcluir);
             this.Controls.Add(this.btnAtualizar);
             this.Controls.Add(this.dgvLivro);
-            this.Controls.Add(this.txtPesquisar);
+            this.Controls.Add(this.tXtPesquisar);
             this.Controls.Add(this.LblCodlivro);
             this.Controls.Add(this.btnAdicionar);
             this.Controls.Add(this.TxtPreco);
@@ -266,7 +270,7 @@
         private System.Windows.Forms.Button btnExcluir;
         private System.Windows.Forms.Button btnAtualizar;
         private System.Windows.Forms.DataGridView dgvLivro;
-        private System.Windows.Forms.TextBox txtPesquisar;
+        private System.Windows.Forms.TextBox tXtPesquisar;
         private System.Windows.Forms.Label LblCodlivro;
         private System.Windows.Forms.Button btnAdicionar;
         private System.Windows.Forms.TextBox TxtPreco;

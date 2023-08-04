@@ -47,7 +47,7 @@ namespace SistemaBiblioteca
             btnAdicionar.TabIndex = 6;
             btnAtualizar.TabIndex = 7;
             btnExcluir.TabIndex = 8;    
-            MatxtCodCliente.TabIndex = 9;
+            TxtPesquisar.TabIndex = 9;
             btnPesquisar.TabIndex =10;
             dgvAlunos.TabIndex = 11;
         }
@@ -238,7 +238,7 @@ namespace SistemaBiblioteca
         private void btnPesquisar_Click(object sender, EventArgs e)
         {
             int id;
-            if(int.TryParse(MatxtCodCliente.Text, out id))
+            if(int.TryParse(TxtPesquisar.Text, out id))
             {
                 carregarDadosAlunos(id);
             }
