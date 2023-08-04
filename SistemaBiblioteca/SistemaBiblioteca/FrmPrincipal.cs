@@ -28,5 +28,10 @@ namespace SistemaBiblioteca
             FrmCadastroLivro frmCadastroLivro = new FrmCadastroLivro(); 
             frmCadastroLivro.ShowDialog();
         }
+
+        private void cadastrarToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
