@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Pagina_Cadastro));
             this.LBlCadastro = new System.Windows.Forms.Label();
             this.LblNome = new System.Windows.Forms.Label();
             this.txtNome = new System.Windows.Forms.TextBox();
@@ -40,25 +41,24 @@
             this.TxtSenha = new System.Windows.Forms.TextBox();
             this.LblCEP = new System.Windows.Forms.Label();
             this.TxtCEP = new System.Windows.Forms.TextBox();
-            this.label3 = new System.Windows.Forms.Label();
-            this.pbFoto = new System.Windows.Forms.PictureBox();
             this.LblTelefone = new System.Windows.Forms.Label();
             this.TxtTelefone = new System.Windows.Forms.TextBox();
-            this.Cadastro = new System.Windows.Forms.Label();
-            this.ckBxCliente = new System.Windows.Forms.CheckBox();
-            this.ckBxTecnico = new System.Windows.Forms.CheckBox();
-            ((System.ComponentModel.ISupportInitialize)(this.pbFoto)).BeginInit();
+            this.lblEndereco = new System.Windows.Forms.Label();
+            this.lblNomeUsuario = new System.Windows.Forms.Label();
+            this.txtEndereco = new System.Windows.Forms.TextBox();
+            this.txtNomeUsuario = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // LBlCadastro
             // 
             this.LBlCadastro.AutoSize = true;
-            this.LBlCadastro.Font = new System.Drawing.Font("Microsoft Sans Serif", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.LBlCadastro.Location = new System.Drawing.Point(235, 9);
+            this.LBlCadastro.BackColor = System.Drawing.Color.AliceBlue;
+            this.LBlCadastro.Font = new System.Drawing.Font("Microsoft Sans Serif", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LBlCadastro.Location = new System.Drawing.Point(161, 21);
             this.LBlCadastro.Name = "LBlCadastro";
-            this.LBlCadastro.Size = new System.Drawing.Size(319, 73);
+            this.LBlCadastro.Size = new System.Drawing.Size(485, 55);
             this.LBlCadastro.TabIndex = 0;
-            this.LBlCadastro.Text = "Cadastro ";
+            this.LBlCadastro.Text = "Cadastro do Usuário";
             // 
             // LblNome
             // 
@@ -158,24 +158,6 @@
             this.TxtCEP.Size = new System.Drawing.Size(290, 31);
             this.TxtCEP.TabIndex = 11;
             // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(473, 283);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(52, 24);
-            this.label3.TabIndex = 13;
-            this.label3.Text = "Foto";
-            // 
-            // pbFoto
-            // 
-            this.pbFoto.Location = new System.Drawing.Point(455, 322);
-            this.pbFoto.Name = "pbFoto";
-            this.pbFoto.Size = new System.Drawing.Size(203, 109);
-            this.pbFoto.TabIndex = 14;
-            this.pbFoto.TabStop = false;
-            // 
             // LblTelefone
             // 
             this.LblTelefone.AutoSize = true;
@@ -194,50 +176,57 @@
             this.TxtTelefone.Size = new System.Drawing.Size(292, 31);
             this.TxtTelefone.TabIndex = 16;
             // 
-            // Cadastro
+            // lblEndereco
             // 
-            this.Cadastro.AutoSize = true;
-            this.Cadastro.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Cadastro.Location = new System.Drawing.Point(60, 459);
-            this.Cadastro.Name = "Cadastro";
-            this.Cadastro.Size = new System.Drawing.Size(58, 24);
-            this.Cadastro.TabIndex = 17;
-            this.Cadastro.Text = "Tipo ";
+            this.lblEndereco.AutoSize = true;
+            this.lblEndereco.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblEndereco.Location = new System.Drawing.Point(463, 283);
+            this.lblEndereco.Name = "lblEndereco";
+            this.lblEndereco.Size = new System.Drawing.Size(102, 24);
+            this.lblEndereco.TabIndex = 17;
+            this.lblEndereco.Text = "Endereço";
             // 
-            // ckBxCliente
+            // lblNomeUsuario
             // 
-            this.ckBxCliente.AutoSize = true;
-            this.ckBxCliente.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ckBxCliente.Location = new System.Drawing.Point(64, 496);
-            this.ckBxCliente.Name = "ckBxCliente";
-            this.ckBxCliente.Size = new System.Drawing.Size(84, 24);
-            this.ckBxCliente.TabIndex = 18;
-            this.ckBxCliente.Text = "Cliente";
-            this.ckBxCliente.UseVisualStyleBackColor = true;
+            this.lblNomeUsuario.AutoSize = true;
+            this.lblNomeUsuario.BackColor = System.Drawing.Color.AliceBlue;
+            this.lblNomeUsuario.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblNomeUsuario.Location = new System.Drawing.Point(464, 371);
+            this.lblNomeUsuario.Name = "lblNomeUsuario";
+            this.lblNomeUsuario.Size = new System.Drawing.Size(193, 25);
+            this.lblNomeUsuario.TabIndex = 18;
+            this.lblNomeUsuario.Text = "Nome de Usuário";
             // 
-            // ckBxTecnico
+            // txtEndereco
             // 
-            this.ckBxTecnico.AutoSize = true;
-            this.ckBxTecnico.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ckBxTecnico.Location = new System.Drawing.Point(170, 496);
-            this.ckBxTecnico.Name = "ckBxTecnico";
-            this.ckBxTecnico.Size = new System.Drawing.Size(90, 24);
-            this.ckBxTecnico.TabIndex = 19;
-            this.ckBxTecnico.Text = "Técnico";
-            this.ckBxTecnico.UseVisualStyleBackColor = true;
+            this.txtEndereco.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtEndereco.Location = new System.Drawing.Point(467, 322);
+            this.txtEndereco.Name = "txtEndereco";
+            this.txtEndereco.Size = new System.Drawing.Size(292, 31);
+            this.txtEndereco.TabIndex = 19;
+            this.txtEndereco.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
+            // 
+            // txtNomeUsuario
+            // 
+            this.txtNomeUsuario.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtNomeUsuario.Location = new System.Drawing.Point(469, 408);
+            this.txtNomeUsuario.Name = "txtNomeUsuario";
+            this.txtNomeUsuario.Size = new System.Drawing.Size(293, 31);
+            this.txtNomeUsuario.TabIndex = 20;
             // 
             // Pagina_Cadastro
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(808, 543);
-            this.Controls.Add(this.ckBxTecnico);
-            this.Controls.Add(this.ckBxCliente);
-            this.Controls.Add(this.Cadastro);
+            this.BackColor = System.Drawing.Color.AliceBlue;
+            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
+            this.ClientSize = new System.Drawing.Size(797, 541);
+            this.Controls.Add(this.txtNomeUsuario);
+            this.Controls.Add(this.txtEndereco);
+            this.Controls.Add(this.lblNomeUsuario);
+            this.Controls.Add(this.lblEndereco);
             this.Controls.Add(this.TxtTelefone);
             this.Controls.Add(this.LblTelefone);
-            this.Controls.Add(this.pbFoto);
-            this.Controls.Add(this.label3);
             this.Controls.Add(this.TxtCEP);
             this.Controls.Add(this.LblCEP);
             this.Controls.Add(this.TxtSenha);
@@ -252,7 +241,6 @@
             this.Controls.Add(this.LBlCadastro);
             this.Name = "Pagina_Cadastro";
             this.Text = "Página de Cadastro";
-            ((System.ComponentModel.ISupportInitialize)(this.pbFoto)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -272,13 +260,12 @@
         private System.Windows.Forms.TextBox TxtSenha;
         private System.Windows.Forms.Label LblCEP;
         private System.Windows.Forms.TextBox TxtCEP;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.PictureBox pbFoto;
         private System.Windows.Forms.Label LblTelefone;
         private System.Windows.Forms.TextBox TxtTelefone;
-        private System.Windows.Forms.Label Cadastro;
-        private System.Windows.Forms.CheckBox ckBxCliente;
-        private System.Windows.Forms.CheckBox ckBxTecnico;
+        private System.Windows.Forms.Label lblEndereco;
+        private System.Windows.Forms.Label lblNomeUsuario;
+        private System.Windows.Forms.TextBox txtEndereco;
+        private System.Windows.Forms.TextBox txtNomeUsuario;
     }
 }
 
