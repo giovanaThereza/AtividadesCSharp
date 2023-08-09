@@ -54,7 +54,7 @@
             this.LBlCadastro.AutoSize = true;
             this.LBlCadastro.BackColor = System.Drawing.Color.AliceBlue;
             this.LBlCadastro.Font = new System.Drawing.Font("Microsoft Sans Serif", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.LBlCadastro.Location = new System.Drawing.Point(161, 21);
+            this.LBlCadastro.Location = new System.Drawing.Point(117, 21);
             this.LBlCadastro.Name = "LBlCadastro";
             this.LBlCadastro.Size = new System.Drawing.Size(485, 55);
             this.LBlCadastro.TabIndex = 0;
