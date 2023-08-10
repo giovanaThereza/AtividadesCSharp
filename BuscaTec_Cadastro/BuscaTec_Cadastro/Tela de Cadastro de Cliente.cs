@@ -21,5 +21,20 @@ namespace BuscaTec_Cadastro
         {
 
         }
+
+        private void lblEmailTC_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pbFotoTC_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtEmailTC_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

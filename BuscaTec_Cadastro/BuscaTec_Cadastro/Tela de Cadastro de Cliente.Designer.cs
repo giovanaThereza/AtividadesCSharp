@@ -28,7 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Tela_de_Cadastro_de_Cliente));
             this.label1 = new System.Windows.Forms.Label();
             this.LblNomeT = new System.Windows.Forms.Label();
             this.lblCpfT = new System.Windows.Forms.Label();
@@ -58,6 +57,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
+            this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(127, 29);
             this.label1.Name = "label1";
@@ -108,18 +108,21 @@
             // lblEmailTC
             // 
             this.lblEmailTC.AutoSize = true;
-            this.lblEmailTC.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblEmailTC.Location = new System.Drawing.Point(438, 113);
+            this.lblEmailTC.BackColor = System.Drawing.Color.DarkGray;
+            this.lblEmailTC.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblEmailTC.Location = new System.Drawing.Point(427, 289);
             this.lblEmailTC.Name = "lblEmailTC";
-            this.lblEmailTC.Size = new System.Drawing.Size(62, 24);
+            this.lblEmailTC.Size = new System.Drawing.Size(70, 25);
             this.lblEmailTC.TabIndex = 5;
             this.lblEmailTC.Text = "Email";
+            this.lblEmailTC.Click += new System.EventHandler(this.lblEmailTC_Click);
             // 
             // lblSenhaTC
             // 
             this.lblSenhaTC.AutoSize = true;
+            this.lblSenhaTC.BackColor = System.Drawing.Color.DarkGray;
             this.lblSenhaTC.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblSenhaTC.Location = new System.Drawing.Point(438, 194);
+            this.lblSenhaTC.Location = new System.Drawing.Point(424, 390);
             this.lblSenhaTC.Name = "lblSenhaTC";
             this.lblSenhaTC.Size = new System.Drawing.Size(70, 24);
             this.lblSenhaTC.TabIndex = 6;
@@ -129,7 +132,7 @@
             // 
             this.lblEnderecoTC.AutoSize = true;
             this.lblEnderecoTC.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblEnderecoTC.Location = new System.Drawing.Point(438, 289);
+            this.lblEnderecoTC.Location = new System.Drawing.Point(428, 480);
             this.lblEnderecoTC.Name = "lblEnderecoTC";
             this.lblEnderecoTC.Size = new System.Drawing.Size(102, 24);
             this.lblEnderecoTC.TabIndex = 7;
@@ -139,7 +142,7 @@
             // 
             this.lblHistoricoProfissional.AutoSize = true;
             this.lblHistoricoProfissional.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblHistoricoProfissional.Location = new System.Drawing.Point(438, 390);
+            this.lblHistoricoProfissional.Location = new System.Drawing.Point(62, 576);
             this.lblHistoricoProfissional.Name = "lblHistoricoProfissional";
             this.lblHistoricoProfissional.Size = new System.Drawing.Size(205, 24);
             this.lblHistoricoProfissional.TabIndex = 8;
@@ -149,7 +152,7 @@
             // 
             this.lblDescricao.AutoSize = true;
             this.lblDescricao.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblDescricao.Location = new System.Drawing.Point(438, 480);
+            this.lblDescricao.Location = new System.Drawing.Point(428, 576);
             this.lblDescricao.Name = "lblDescricao";
             this.lblDescricao.Size = new System.Drawing.Size(109, 24);
             this.lblDescricao.TabIndex = 9;
@@ -201,15 +204,16 @@
             // txtEmailTC
             // 
             this.txtEmailTC.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtEmailTC.Location = new System.Drawing.Point(432, 149);
+            this.txtEmailTC.Location = new System.Drawing.Point(422, 333);
             this.txtEmailTC.Name = "txtEmailTC";
-            this.txtEmailTC.Size = new System.Drawing.Size(255, 31);
+            this.txtEmailTC.Size = new System.Drawing.Size(293, 31);
             this.txtEmailTC.TabIndex = 15;
+            this.txtEmailTC.TextChanged += new System.EventHandler(this.txtEmailTC_TextChanged);
             // 
             // txtSenhaTC
             // 
             this.txtSenhaTC.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtSenhaTC.Location = new System.Drawing.Point(432, 236);
+            this.txtSenhaTC.Location = new System.Drawing.Point(422, 428);
             this.txtSenhaTC.Name = "txtSenhaTC";
             this.txtSenhaTC.Size = new System.Drawing.Size(202, 31);
             this.txtSenhaTC.TabIndex = 16;
@@ -217,7 +221,7 @@
             // txtDescriçãoTC
             // 
             this.txtDescriçãoTC.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtDescriçãoTC.Location = new System.Drawing.Point(432, 520);
+            this.txtDescriçãoTC.Location = new System.Drawing.Point(422, 621);
             this.txtDescriçãoTC.Name = "txtDescriçãoTC";
             this.txtDescriçãoTC.Size = new System.Drawing.Size(261, 31);
             this.txtDescriçãoTC.TabIndex = 17;
@@ -225,7 +229,7 @@
             // txtEnderecoTC
             // 
             this.txtEnderecoTC.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtEnderecoTC.Location = new System.Drawing.Point(432, 333);
+            this.txtEnderecoTC.Location = new System.Drawing.Point(422, 520);
             this.txtEnderecoTC.Name = "txtEnderecoTC";
             this.txtEnderecoTC.Size = new System.Drawing.Size(261, 31);
             this.txtEnderecoTC.TabIndex = 18;
@@ -233,7 +237,7 @@
             // txtHistoricoPROFTC
             // 
             this.txtHistoricoPROFTC.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtHistoricoPROFTC.Location = new System.Drawing.Point(432, 428);
+            this.txtHistoricoPROFTC.Location = new System.Drawing.Point(57, 621);
             this.txtHistoricoPROFTC.Name = "txtHistoricoPROFTC";
             this.txtHistoricoPROFTC.Size = new System.Drawing.Size(261, 31);
             this.txtHistoricoPROFTC.TabIndex = 19;
@@ -248,17 +252,19 @@
             // 
             // pbFotoTC
             // 
-            this.pbFotoTC.Location = new System.Drawing.Point(231, 588);
+            this.pbFotoTC.BackColor = System.Drawing.Color.Transparent;
+            this.pbFotoTC.Location = new System.Drawing.Point(428, 149);
             this.pbFotoTC.Name = "pbFotoTC";
             this.pbFotoTC.Size = new System.Drawing.Size(215, 116);
             this.pbFotoTC.TabIndex = 21;
             this.pbFotoTC.TabStop = false;
+            this.pbFotoTC.Click += new System.EventHandler(this.pbFotoTC_Click);
             // 
             // lblFotoTC
             // 
             this.lblFotoTC.AutoSize = true;
             this.lblFotoTC.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblFotoTC.Location = new System.Drawing.Point(304, 545);
+            this.lblFotoTC.Location = new System.Drawing.Point(428, 113);
             this.lblFotoTC.Name = "lblFotoTC";
             this.lblFotoTC.Size = new System.Drawing.Size(52, 24);
             this.lblFotoTC.TabIndex = 22;
@@ -268,8 +274,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.AliceBlue;
-            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
+            this.BackColor = System.Drawing.Color.DarkGray;
             this.ClientSize = new System.Drawing.Size(739, 716);
             this.Controls.Add(this.lblFotoTC);
             this.Controls.Add(this.pbFotoTC);

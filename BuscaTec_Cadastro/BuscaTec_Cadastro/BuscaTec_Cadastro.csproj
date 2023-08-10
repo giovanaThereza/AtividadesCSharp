@@ -60,6 +60,12 @@
     <Compile Include="Tela de Cadastro de Cliente.Designer.cs">
       <DependentUpon>Tela de Cadastro de Cliente.cs</DependentUpon>
     </Compile>
+    <Compile Include="Tela de Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tela de Login.Designer.cs">
+      <DependentUpon>Tela de Login.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
@@ -74,6 +80,9 @@
     </Compile>
     <EmbeddedResource Include="Tela de Cadastro de Cliente.resx">
       <DependentUpon>Tela de Cadastro de Cliente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tela de Login.resx">
+      <DependentUpon>Tela de Login.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>

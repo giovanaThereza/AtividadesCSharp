@@ -28,7 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Pagina_Cadastro));
             this.LBlCadastro = new System.Windows.Forms.Label();
             this.LblNome = new System.Windows.Forms.Label();
             this.txtNome = new System.Windows.Forms.TextBox();
@@ -52,7 +51,7 @@
             // LBlCadastro
             // 
             this.LBlCadastro.AutoSize = true;
-            this.LBlCadastro.BackColor = System.Drawing.Color.AliceBlue;
+            this.LBlCadastro.BackColor = System.Drawing.Color.DarkGray;
             this.LBlCadastro.Font = new System.Drawing.Font("Microsoft Sans Serif", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.LBlCadastro.Location = new System.Drawing.Point(117, 21);
             this.LBlCadastro.Name = "LBlCadastro";
@@ -189,9 +188,9 @@
             // lblNomeUsuario
             // 
             this.lblNomeUsuario.AutoSize = true;
-            this.lblNomeUsuario.BackColor = System.Drawing.Color.AliceBlue;
+            this.lblNomeUsuario.BackColor = System.Drawing.Color.DarkGray;
             this.lblNomeUsuario.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblNomeUsuario.Location = new System.Drawing.Point(464, 371);
+            this.lblNomeUsuario.Location = new System.Drawing.Point(464, 370);
             this.lblNomeUsuario.Name = "lblNomeUsuario";
             this.lblNomeUsuario.Size = new System.Drawing.Size(193, 25);
             this.lblNomeUsuario.TabIndex = 18;
@@ -218,8 +217,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.AliceBlue;
-            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
+            this.BackColor = System.Drawing.Color.DarkGray;
             this.ClientSize = new System.Drawing.Size(797, 541);
             this.Controls.Add(this.txtNomeUsuario);
             this.Controls.Add(this.txtEndereco);
@@ -240,7 +238,8 @@
             this.Controls.Add(this.LblNome);
             this.Controls.Add(this.LBlCadastro);
             this.Name = "Pagina_Cadastro";
-            this.Text = "Página de Cadastro";
+            this.Text = "Tela de Cadastro Técnico ";
+            this.Load += new System.EventHandler(this.Pagina_Cadastro_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

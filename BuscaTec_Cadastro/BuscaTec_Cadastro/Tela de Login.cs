@@ -10,21 +10,11 @@ using System.Windows.Forms;
 
 namespace BuscaTec_Cadastro
 {
-    public partial class Pagina_Cadastro : Form
+    public partial class Tela_de_Login : Form
     {
-        public Pagina_Cadastro()
+        public Tela_de_Login()
         {
             InitializeComponent();
-        }
-
-        private void textBox1_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void Pagina_Cadastro_Load(object sender, EventArgs e)
-        {
-
         }
     }
 }
