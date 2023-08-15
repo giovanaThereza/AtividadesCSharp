@@ -33,5 +33,11 @@ namespace SistemaBiblioteca
         {
 
         }
+
+        private void emprestimoToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FrmEmprestimo frmEmprestimo = new FrmEmprestimo();
+            frmEmprestimo.ShowDialog();
+        }
     }
 }

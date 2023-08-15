@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace BuscaTec_Cadastro
 {
-    public partial class Pagina_Cadastro : Form
+    public partial class Pagina_CadastroU : Form
     {
-        public Pagina_Cadastro()
+        public Pagina_CadastroU()
         {
             InitializeComponent();
         }

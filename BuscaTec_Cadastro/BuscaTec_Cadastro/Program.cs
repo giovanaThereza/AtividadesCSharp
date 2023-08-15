@@ -16,7 +16,7 @@ namespace BuscaTec_Cadastro
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Pagina_Cadastro());
+            Application.Run(new Pagina_CadastroU());
         }
     }
 }

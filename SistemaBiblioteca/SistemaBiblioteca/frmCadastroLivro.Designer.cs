@@ -99,7 +99,6 @@
             this.tXtPesquisar.Name = "tXtPesquisar";
             this.tXtPesquisar.Size = new System.Drawing.Size(89, 26);
             this.tXtPesquisar.TabIndex = 36;
-
             // 
             // LblCodlivro
             // 
@@ -175,6 +174,7 @@
             this.TxtTitulo.Name = "TxtTitulo";
             this.TxtTitulo.Size = new System.Drawing.Size(205, 26);
             this.TxtTitulo.TabIndex = 27;
+
             // 
             // LblTitulo
             // 

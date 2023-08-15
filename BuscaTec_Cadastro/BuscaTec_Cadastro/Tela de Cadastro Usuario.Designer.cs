@@ -1,6 +1,6 @@
 ﻿namespace BuscaTec_Cadastro
 {
-    partial class Pagina_Cadastro
+    partial class Pagina_CadastroU
     {
         /// <summary>
         /// Variável de designer necessária.
@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Pagina_CadastroU));
             this.LBlCadastro = new System.Windows.Forms.Label();
             this.LblNome = new System.Windows.Forms.Label();
             this.txtNome = new System.Windows.Forms.TextBox();
@@ -213,11 +214,12 @@
             this.txtNomeUsuario.Size = new System.Drawing.Size(293, 31);
             this.txtNomeUsuario.TabIndex = 20;
             // 
-            // Pagina_Cadastro
+            // Pagina_CadastroU
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.DarkGray;
+            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.ClientSize = new System.Drawing.Size(797, 541);
             this.Controls.Add(this.txtNomeUsuario);
             this.Controls.Add(this.txtEndereco);
@@ -237,7 +239,7 @@
             this.Controls.Add(this.txtNome);
             this.Controls.Add(this.LblNome);
             this.Controls.Add(this.LBlCadastro);
-            this.Name = "Pagina_Cadastro";
+            this.Name = "Pagina_CadastroU";
             this.Text = "Tela de Cadastro Técnico ";
             this.Load += new System.EventHandler(this.Pagina_Cadastro_Load);
             this.ResumeLayout(false);

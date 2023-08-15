@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Tela_de_Cadastro_de_Cliente));
             this.label1 = new System.Windows.Forms.Label();
             this.LblNomeT = new System.Windows.Forms.Label();
             this.lblCpfT = new System.Windows.Forms.Label();
@@ -275,6 +276,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.DarkGray;
+            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.ClientSize = new System.Drawing.Size(739, 716);
             this.Controls.Add(this.lblFotoTC);
             this.Controls.Add(this.pbFotoTC);
