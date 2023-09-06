@@ -35,6 +35,7 @@
             this.txtCpfLogin = new System.Windows.Forms.TextBox();
             this.txtSenhaLogin = new System.Windows.Forms.TextBox();
             this.button1 = new System.Windows.Forms.Button();
+            this.BNTCadastar = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -90,12 +91,23 @@
             // 
             this.button1.BackColor = System.Drawing.SystemColors.Window;
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(768, 415);
+            this.button1.Location = new System.Drawing.Point(684, 433);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(175, 46);
             this.button1.TabIndex = 5;
             this.button1.Text = "Login ";
             this.button1.UseVisualStyleBackColor = false;
+            // 
+            // BNTCadastar
+            // 
+            this.BNTCadastar.BackColor = System.Drawing.SystemColors.Window;
+            this.BNTCadastar.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BNTCadastar.Location = new System.Drawing.Point(891, 433);
+            this.BNTCadastar.Name = "BNTCadastar";
+            this.BNTCadastar.Size = new System.Drawing.Size(137, 46);
+            this.BNTCadastar.TabIndex = 6;
+            this.BNTCadastar.Text = "Cadastar-se";
+            this.BNTCadastar.UseVisualStyleBackColor = false;
             // 
             // Tela_de_Login
             // 
@@ -103,6 +115,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.ClientSize = new System.Drawing.Size(1064, 778);
+            this.Controls.Add(this.BNTCadastar);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.txtSenhaLogin);
             this.Controls.Add(this.txtCpfLogin);
@@ -124,5 +137,6 @@
         private System.Windows.Forms.TextBox txtCpfLogin;
         private System.Windows.Forms.TextBox txtSenhaLogin;
         private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button BNTCadastar;
     }
 }

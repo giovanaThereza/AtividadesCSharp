@@ -17,11 +17,6 @@ namespace BuscaTec_Cadastro
             InitializeComponent();
         }
 
-        private void textBox1_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
         private void Pagina_Cadastro_Load(object sender, EventArgs e)
         {
 

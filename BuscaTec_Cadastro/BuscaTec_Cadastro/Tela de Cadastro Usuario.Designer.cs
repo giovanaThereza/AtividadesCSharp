@@ -47,14 +47,18 @@
             this.lblNomeUsuario = new System.Windows.Forms.Label();
             this.txtEndereco = new System.Windows.Forms.TextBox();
             this.txtNomeUsuario = new System.Windows.Forms.TextBox();
+            this.bntCadastrar = new System.Windows.Forms.Button();
+            this.CbxTec = new System.Windows.Forms.CheckBox();
+            this.checkBox2 = new System.Windows.Forms.CheckBox();
+            this.label3 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // LBlCadastro
             // 
             this.LBlCadastro.AutoSize = true;
-            this.LBlCadastro.BackColor = System.Drawing.Color.DarkGray;
+            this.LBlCadastro.BackColor = System.Drawing.Color.White;
             this.LBlCadastro.Font = new System.Drawing.Font("Microsoft Sans Serif", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.LBlCadastro.Location = new System.Drawing.Point(117, 21);
+            this.LBlCadastro.Location = new System.Drawing.Point(154, 21);
             this.LBlCadastro.Name = "LBlCadastro";
             this.LBlCadastro.Size = new System.Drawing.Size(485, 55);
             this.LBlCadastro.TabIndex = 0;
@@ -63,6 +67,7 @@
             // LblNome
             // 
             this.LblNome.AutoSize = true;
+            this.LblNome.BackColor = System.Drawing.Color.White;
             this.LblNome.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.LblNome.Location = new System.Drawing.Point(56, 104);
             this.LblNome.Name = "LblNome";
@@ -81,6 +86,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
+            this.label1.BackColor = System.Drawing.Color.White;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(463, 104);
             this.label1.Name = "label1";
@@ -107,6 +113,7 @@
             // LblCPF
             // 
             this.LblCPF.AutoSize = true;
+            this.LblCPF.BackColor = System.Drawing.Color.White;
             this.LblCPF.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.LblCPF.Location = new System.Drawing.Point(59, 194);
             this.LblCPF.Name = "LblCPF";
@@ -125,6 +132,7 @@
             // LblSenha
             // 
             this.LblSenha.AutoSize = true;
+            this.LblSenha.BackColor = System.Drawing.Color.White;
             this.LblSenha.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.LblSenha.Location = new System.Drawing.Point(463, 194);
             this.LblSenha.Name = "LblSenha";
@@ -143,6 +151,7 @@
             // LblCEP
             // 
             this.LblCEP.AutoSize = true;
+            this.LblCEP.BackColor = System.Drawing.Color.White;
             this.LblCEP.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.LblCEP.Location = new System.Drawing.Point(59, 283);
             this.LblCEP.Name = "LblCEP";
@@ -161,6 +170,7 @@
             // LblTelefone
             // 
             this.LblTelefone.AutoSize = true;
+            this.LblTelefone.BackColor = System.Drawing.Color.White;
             this.LblTelefone.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.LblTelefone.Location = new System.Drawing.Point(56, 371);
             this.LblTelefone.Name = "LblTelefone";
@@ -179,6 +189,7 @@
             // lblEndereco
             // 
             this.lblEndereco.AutoSize = true;
+            this.lblEndereco.BackColor = System.Drawing.Color.White;
             this.lblEndereco.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblEndereco.Location = new System.Drawing.Point(463, 283);
             this.lblEndereco.Name = "lblEndereco";
@@ -189,7 +200,7 @@
             // lblNomeUsuario
             // 
             this.lblNomeUsuario.AutoSize = true;
-            this.lblNomeUsuario.BackColor = System.Drawing.Color.DarkGray;
+            this.lblNomeUsuario.BackColor = System.Drawing.Color.White;
             this.lblNomeUsuario.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblNomeUsuario.Location = new System.Drawing.Point(464, 370);
             this.lblNomeUsuario.Name = "lblNomeUsuario";
@@ -204,7 +215,7 @@
             this.txtEndereco.Name = "txtEndereco";
             this.txtEndereco.Size = new System.Drawing.Size(292, 31);
             this.txtEndereco.TabIndex = 19;
-            this.txtEndereco.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
+
             // 
             // txtNomeUsuario
             // 
@@ -214,13 +225,63 @@
             this.txtNomeUsuario.Size = new System.Drawing.Size(293, 31);
             this.txtNomeUsuario.TabIndex = 20;
             // 
+            // bntCadastrar
+            // 
+            this.bntCadastrar.BackColor = System.Drawing.SystemColors.Window;
+            this.bntCadastrar.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bntCadastrar.Location = new System.Drawing.Point(312, 547);
+            this.bntCadastrar.Name = "bntCadastrar";
+            this.bntCadastrar.Size = new System.Drawing.Size(171, 46);
+            this.bntCadastrar.TabIndex = 21;
+            this.bntCadastrar.Text = "Cadastrar";
+            this.bntCadastrar.UseVisualStyleBackColor = false;
+            // 
+            // CbxTec
+            // 
+            this.CbxTec.AutoSize = true;
+            this.CbxTec.BackColor = System.Drawing.Color.White;
+            this.CbxTec.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CbxTec.Location = new System.Drawing.Point(67, 514);
+            this.CbxTec.Name = "CbxTec";
+            this.CbxTec.Size = new System.Drawing.Size(103, 28);
+            this.CbxTec.TabIndex = 22;
+            this.CbxTec.Text = "Técnico ";
+            this.CbxTec.UseVisualStyleBackColor = false;
+            // 
+            // checkBox2
+            // 
+            this.checkBox2.AutoSize = true;
+            this.checkBox2.BackColor = System.Drawing.Color.White;
+            this.checkBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.checkBox2.Location = new System.Drawing.Point(67, 558);
+            this.checkBox2.Name = "checkBox2";
+            this.checkBox2.Size = new System.Drawing.Size(87, 28);
+            this.checkBox2.TabIndex = 23;
+            this.checkBox2.Text = "Cliente";
+            this.checkBox2.UseVisualStyleBackColor = false;
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.BackColor = System.Drawing.SystemColors.Window;
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Location = new System.Drawing.Point(62, 464);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(131, 29);
+            this.label3.TabIndex = 24;
+            this.label3.Text = "Selecione";
+            // 
             // Pagina_CadastroU
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.DarkGray;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
-            this.ClientSize = new System.Drawing.Size(797, 541);
+            this.ClientSize = new System.Drawing.Size(797, 688);
+            this.Controls.Add(this.label3);
+            this.Controls.Add(this.checkBox2);
+            this.Controls.Add(this.CbxTec);
+            this.Controls.Add(this.bntCadastrar);
             this.Controls.Add(this.txtNomeUsuario);
             this.Controls.Add(this.txtEndereco);
             this.Controls.Add(this.lblNomeUsuario);
@@ -267,6 +328,10 @@
         private System.Windows.Forms.Label lblNomeUsuario;
         private System.Windows.Forms.TextBox txtEndereco;
         private System.Windows.Forms.TextBox txtNomeUsuario;
+        private System.Windows.Forms.Button bntCadastrar;
+        private System.Windows.Forms.CheckBox CbxTec;
+        private System.Windows.Forms.CheckBox checkBox2;
+        private System.Windows.Forms.Label label3;
     }
 }
 
