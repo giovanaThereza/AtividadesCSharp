@@ -39,7 +39,7 @@ namespace BuscaTec_Cadastro
                 }
                 else
                 {
-                    sql = "SLECT * FROM User WHERE ID_User=" + id
+                    sql = "SLECT * FROM User WHERE ID_User=" + id;
                 }
 
                 SqlDataAdapter adapter = new SqlDataAdapter(sql, conexaoDB);
@@ -51,9 +51,10 @@ namespace BuscaTec_Cadastro
                 dataTable.Columns["CPF"].ColumnName = "CPF";
                 dataTable.Columns["Email"].ColumnName = "E-mail";
                 dataTable.Columns["CEP"].ColumnName = "CEP";
-
+                dataTable.Columns["Fone"].ColumnName = "Telefone";
+                dataTable.Columns[""].ColumnName = "";
             }
-            catch(){
+            catch{
             
             }
         }

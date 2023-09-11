@@ -10,3 +10,4 @@ C:\Users\giovana.tgmsilva\source\repos\BuscaTec_Cadastro\BuscaTec_Cadastro\obj\D
 C:\Users\giovana.tgmsilva\source\repos\BuscaTec_Cadastro\BuscaTec_Cadastro\obj\Debug\BuscaTec_Cadastro.pdb
 C:\Users\giovana.tgmsilva\source\repos\BuscaTec_Cadastro\BuscaTec_Cadastro\obj\Debug\BuscaTec_Cadastro.Pagina_CadastroU.resources
 C:\Users\giovana.tgmsilva\source\repos\BuscaTec_Cadastro\BuscaTec_Cadastro\obj\Debug\BuscaTec_Cadastro.Tela_de_Login.resources
+C:\Users\giovana.tgmsilva\source\repos\BuscaTec_Cadastro\BuscaTec_Cadastro\obj\Debug\BuscaTec_Cadastro.PaginaInicial.resources

@@ -35,6 +35,7 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.DirectoryServices" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -46,6 +47,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="PaginaInicial.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PaginaInicial.Designer.cs">
+      <DependentUpon>PaginaInicial.cs</DependentUpon>
+    </Compile>
     <Compile Include="Tela de Cadastro Usuario.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -60,6 +67,9 @@
     <Compile Include="Tela de Login.Designer.cs">
       <DependentUpon>Tela de Login.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="PaginaInicial.resx">
+      <DependentUpon>PaginaInicial.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Tela de Cadastro Usuario.resx">
       <DependentUpon>Tela de Cadastro Usuario.cs</DependentUpon>
     </EmbeddedResource>
